@@ -78,10 +78,22 @@ namespace FieldsOfFortune
             }
         }
 
+        public void OpenStorageDisplay()
+        {
+            InitializedForms[2].Show();
+            InitializedForms[2].Enabled = true;
+        }
+
         public void CloseBuyForm()
         {
             InitializedForms[1].Hide();
             InitializedForms[1].Enabled = false;
+        }
+
+        public void CloseStorageDisplay()
+        {
+            InitializedForms[2].Hide();
+            InitializedForms[2].Enabled = false;
         }
 
         public void AddForm(Form form)

@@ -179,7 +179,7 @@ namespace FieldsOfFortune
 
         private void btn_storage_Click(object sender, EventArgs e)
         {
-            
+            GameController.Instance.OpenStorageDisplay();
         }
     }
 }

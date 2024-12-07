@@ -72,5 +72,10 @@ namespace FieldsOfFortune
 
             GameController.Instance.AddStorage(s);
         }
+
+        private void btn_cancel_Click(object sender, EventArgs e)
+        {
+            GameController.Instance.CloseStorageDisplay();
+        }
     }
 }

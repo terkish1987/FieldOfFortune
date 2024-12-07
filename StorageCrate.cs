@@ -31,6 +31,9 @@ namespace FieldsOfFortune
         {
             btn_buy.Visible = false;
             btn_buy.Enabled = false;
+
+            lbl_stock_capacity.Visible = true;
+            lbl_stock_capacity.Text = "0/150";
         }
     }
 }

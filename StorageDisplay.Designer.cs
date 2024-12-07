@@ -75,9 +75,11 @@
             this.btn_cancel.Size = new System.Drawing.Size(60, 60);
             this.btn_cancel.TabIndex = 9;
             this.btn_cancel.UseVisualStyleBackColor = true;
+            this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
             // 
             // StorageCrate_0
             // 
+            this.StorageCrate_0.ID = 0;
             this.StorageCrate_0.Location = new System.Drawing.Point(30, 30);
             this.StorageCrate_0.Name = "StorageCrate_0";
             this.StorageCrate_0.Size = new System.Drawing.Size(150, 120);
@@ -85,6 +87,7 @@
             // 
             // StorageCrate_5
             // 
+            this.StorageCrate_5.ID = 0;
             this.StorageCrate_5.Location = new System.Drawing.Point(30, 170);
             this.StorageCrate_5.Name = "StorageCrate_5";
             this.StorageCrate_5.Size = new System.Drawing.Size(150, 120);
@@ -92,6 +95,7 @@
             // 
             // StorageCrate_10
             // 
+            this.StorageCrate_10.ID = 0;
             this.StorageCrate_10.Location = new System.Drawing.Point(30, 310);
             this.StorageCrate_10.Name = "StorageCrate_10";
             this.StorageCrate_10.Size = new System.Drawing.Size(150, 120);
@@ -99,6 +103,7 @@
             // 
             // StorageCrate_15
             // 
+            this.StorageCrate_15.ID = 0;
             this.StorageCrate_15.Location = new System.Drawing.Point(30, 450);
             this.StorageCrate_15.Name = "StorageCrate_15";
             this.StorageCrate_15.Size = new System.Drawing.Size(150, 120);
@@ -106,6 +111,7 @@
             // 
             // StorageCrate_16
             // 
+            this.StorageCrate_16.ID = 0;
             this.StorageCrate_16.Location = new System.Drawing.Point(200, 450);
             this.StorageCrate_16.Name = "StorageCrate_16";
             this.StorageCrate_16.Size = new System.Drawing.Size(150, 120);
@@ -113,6 +119,7 @@
             // 
             // StorageCrate_11
             // 
+            this.StorageCrate_11.ID = 0;
             this.StorageCrate_11.Location = new System.Drawing.Point(200, 310);
             this.StorageCrate_11.Name = "StorageCrate_11";
             this.StorageCrate_11.Size = new System.Drawing.Size(150, 120);
@@ -120,6 +127,7 @@
             // 
             // StorageCrate_6
             // 
+            this.StorageCrate_6.ID = 0;
             this.StorageCrate_6.Location = new System.Drawing.Point(200, 170);
             this.StorageCrate_6.Name = "StorageCrate_6";
             this.StorageCrate_6.Size = new System.Drawing.Size(150, 120);
@@ -127,6 +135,7 @@
             // 
             // StorageCrate_1
             // 
+            this.StorageCrate_1.ID = 0;
             this.StorageCrate_1.Location = new System.Drawing.Point(200, 30);
             this.StorageCrate_1.Name = "StorageCrate_1";
             this.StorageCrate_1.Size = new System.Drawing.Size(150, 120);
@@ -134,6 +143,7 @@
             // 
             // StorageCrate_17
             // 
+            this.StorageCrate_17.ID = 0;
             this.StorageCrate_17.Location = new System.Drawing.Point(370, 450);
             this.StorageCrate_17.Name = "StorageCrate_17";
             this.StorageCrate_17.Size = new System.Drawing.Size(150, 120);
@@ -141,6 +151,7 @@
             // 
             // StorageCrate_12
             // 
+            this.StorageCrate_12.ID = 0;
             this.StorageCrate_12.Location = new System.Drawing.Point(370, 310);
             this.StorageCrate_12.Name = "StorageCrate_12";
             this.StorageCrate_12.Size = new System.Drawing.Size(150, 120);
@@ -148,6 +159,7 @@
             // 
             // StorageCrate_7
             // 
+            this.StorageCrate_7.ID = 0;
             this.StorageCrate_7.Location = new System.Drawing.Point(370, 170);
             this.StorageCrate_7.Name = "StorageCrate_7";
             this.StorageCrate_7.Size = new System.Drawing.Size(150, 120);
@@ -155,6 +167,7 @@
             // 
             // StorageCrate_2
             // 
+            this.StorageCrate_2.ID = 0;
             this.StorageCrate_2.Location = new System.Drawing.Point(370, 30);
             this.StorageCrate_2.Name = "StorageCrate_2";
             this.StorageCrate_2.Size = new System.Drawing.Size(150, 120);
@@ -162,6 +175,7 @@
             // 
             // StorageCrate_19
             // 
+            this.StorageCrate_19.ID = 0;
             this.StorageCrate_19.Location = new System.Drawing.Point(710, 450);
             this.StorageCrate_19.Name = "StorageCrate_19";
             this.StorageCrate_19.Size = new System.Drawing.Size(150, 120);
@@ -169,6 +183,7 @@
             // 
             // StorageCrate_14
             // 
+            this.StorageCrate_14.ID = 0;
             this.StorageCrate_14.Location = new System.Drawing.Point(710, 310);
             this.StorageCrate_14.Name = "StorageCrate_14";
             this.StorageCrate_14.Size = new System.Drawing.Size(150, 120);
@@ -176,6 +191,7 @@
             // 
             // StorageCrate_9
             // 
+            this.StorageCrate_9.ID = 0;
             this.StorageCrate_9.Location = new System.Drawing.Point(710, 170);
             this.StorageCrate_9.Name = "StorageCrate_9";
             this.StorageCrate_9.Size = new System.Drawing.Size(150, 120);
@@ -183,6 +199,7 @@
             // 
             // StorageCrate_4
             // 
+            this.StorageCrate_4.ID = 0;
             this.StorageCrate_4.Location = new System.Drawing.Point(710, 30);
             this.StorageCrate_4.Name = "StorageCrate_4";
             this.StorageCrate_4.Size = new System.Drawing.Size(150, 120);
@@ -190,6 +207,7 @@
             // 
             // StorageCrate_18
             // 
+            this.StorageCrate_18.ID = 0;
             this.StorageCrate_18.Location = new System.Drawing.Point(540, 450);
             this.StorageCrate_18.Name = "StorageCrate_18";
             this.StorageCrate_18.Size = new System.Drawing.Size(150, 120);
@@ -197,6 +215,7 @@
             // 
             // StorageCrate_13
             // 
+            this.StorageCrate_13.ID = 0;
             this.StorageCrate_13.Location = new System.Drawing.Point(540, 310);
             this.StorageCrate_13.Name = "StorageCrate_13";
             this.StorageCrate_13.Size = new System.Drawing.Size(150, 120);
@@ -204,6 +223,7 @@
             // 
             // StorageCrate_8
             // 
+            this.StorageCrate_8.ID = 0;
             this.StorageCrate_8.Location = new System.Drawing.Point(540, 170);
             this.StorageCrate_8.Name = "StorageCrate_8";
             this.StorageCrate_8.Size = new System.Drawing.Size(150, 120);
@@ -211,6 +231,7 @@
             // 
             // StorageCrate_3
             // 
+            this.StorageCrate_3.ID = 0;
             this.StorageCrate_3.Location = new System.Drawing.Point(540, 30);
             this.StorageCrate_3.Name = "StorageCrate_3";
             this.StorageCrate_3.Size = new System.Drawing.Size(150, 120);

@@ -31,7 +31,6 @@ namespace FieldsOfFortune
         {
             btn_buy.Visible = false;
             btn_buy.Enabled = false;
-            owned = true;
         }
     }
 }

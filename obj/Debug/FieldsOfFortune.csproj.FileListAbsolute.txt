@@ -12,3 +12,17 @@ C:\Users\shrut\source\repos\FieldsOfFortune\obj\Debug\FieldsOfFortune.FieldGroup
 C:\Users\shrut\source\repos\FieldsOfFortune\obj\Debug\FieldsOfFortune.BuyForm.resources
 C:\Users\shrut\source\repos\FieldsOfFortune\obj\Debug\FieldsOfFortune.StorageCrate.resources
 C:\Users\shrut\source\repos\FieldsOfFortune\obj\Debug\FieldsOfFortune.StorageDisplay.resources
+C:\Users\User\GitHub\FieldOfFortune\obj\Debug\FieldsOfFortune.csproj.AssemblyReference.cache
+C:\Users\User\GitHub\FieldOfFortune\obj\Debug\FieldsOfFortune.BuyForm.resources
+C:\Users\User\GitHub\FieldOfFortune\obj\Debug\FieldsOfFortune.FieldGroup.resources
+C:\Users\User\GitHub\FieldOfFortune\obj\Debug\FieldsOfFortune.Form1.resources
+C:\Users\User\GitHub\FieldOfFortune\obj\Debug\FieldsOfFortune.Properties.Resources.resources
+C:\Users\User\GitHub\FieldOfFortune\obj\Debug\FieldsOfFortune.StorageCrate.resources
+C:\Users\User\GitHub\FieldOfFortune\obj\Debug\FieldsOfFortune.StorageDisplay.resources
+C:\Users\User\GitHub\FieldOfFortune\obj\Debug\FieldsOfFortune.csproj.GenerateResource.cache
+C:\Users\User\GitHub\FieldOfFortune\obj\Debug\FieldsOfFortune.csproj.CoreCompileInputs.cache
+C:\Users\User\GitHub\FieldOfFortune\obj\Debug\FieldsOfFortune.exe
+C:\Users\User\GitHub\FieldOfFortune\obj\Debug\FieldsOfFortune.pdb
+C:\Users\User\GitHub\FieldOfFortune\bin\Debug\FieldsOfFortune.exe.config
+C:\Users\User\GitHub\FieldOfFortune\bin\Debug\FieldsOfFortune.exe
+C:\Users\User\GitHub\FieldOfFortune\bin\Debug\FieldsOfFortune.pdb

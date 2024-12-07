@@ -30,26 +30,26 @@
         {
             this.btn_floorboard_background = new System.Windows.Forms.Button();
             this.btn_cancel = new System.Windows.Forms.Button();
-            this.storageCrate_0 = new FieldsOfFortune.StorageCrate();
-            this.storageCrate_5 = new FieldsOfFortune.StorageCrate();
-            this.storageCrate_10 = new FieldsOfFortune.StorageCrate();
-            this.storageCrate_15 = new FieldsOfFortune.StorageCrate();
-            this.storageCrate_16 = new FieldsOfFortune.StorageCrate();
-            this.storageCrate_11 = new FieldsOfFortune.StorageCrate();
-            this.storageCrate_6 = new FieldsOfFortune.StorageCrate();
-            this.storageCrate_1 = new FieldsOfFortune.StorageCrate();
-            this.storageCrate_17 = new FieldsOfFortune.StorageCrate();
-            this.storageCrate_12 = new FieldsOfFortune.StorageCrate();
-            this.storageCrate_7 = new FieldsOfFortune.StorageCrate();
-            this.storageCrate_2 = new FieldsOfFortune.StorageCrate();
-            this.storageCrate_19 = new FieldsOfFortune.StorageCrate();
-            this.storageCrate_14 = new FieldsOfFortune.StorageCrate();
-            this.storageCrate_9 = new FieldsOfFortune.StorageCrate();
-            this.storageCrate_4 = new FieldsOfFortune.StorageCrate();
-            this.storageCrate_18 = new FieldsOfFortune.StorageCrate();
-            this.storageCrate_13 = new FieldsOfFortune.StorageCrate();
-            this.storageCrate_8 = new FieldsOfFortune.StorageCrate();
-            this.storageCrate_3 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_0 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_5 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_10 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_15 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_16 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_11 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_6 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_1 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_17 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_12 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_7 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_2 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_19 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_14 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_9 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_4 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_18 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_13 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_8 = new FieldsOfFortune.StorageCrate();
+            this.StorageCrate_3 = new FieldsOfFortune.StorageCrate();
             this.SuspendLayout();
             // 
             // btn_floorboard_background
@@ -76,171 +76,171 @@
             this.btn_cancel.TabIndex = 9;
             this.btn_cancel.UseVisualStyleBackColor = true;
             // 
-            // storageCrate_0
+            // StorageCrate_0
             // 
-            this.storageCrate_0.Location = new System.Drawing.Point(30, 30);
-            this.storageCrate_0.Name = "storageCrate_0";
-            this.storageCrate_0.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_0.TabIndex = 10;
+            this.StorageCrate_0.Location = new System.Drawing.Point(30, 30);
+            this.StorageCrate_0.Name = "StorageCrate_0";
+            this.StorageCrate_0.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_0.TabIndex = 10;
             // 
-            // storageCrate_5
+            // StorageCrate_5
             // 
-            this.storageCrate_5.Location = new System.Drawing.Point(30, 170);
-            this.storageCrate_5.Name = "storageCrate_5";
-            this.storageCrate_5.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_5.TabIndex = 11;
+            this.StorageCrate_5.Location = new System.Drawing.Point(30, 170);
+            this.StorageCrate_5.Name = "StorageCrate_5";
+            this.StorageCrate_5.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_5.TabIndex = 11;
             // 
-            // storageCrate_10
+            // StorageCrate_10
             // 
-            this.storageCrate_10.Location = new System.Drawing.Point(30, 310);
-            this.storageCrate_10.Name = "storageCrate_10";
-            this.storageCrate_10.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_10.TabIndex = 12;
+            this.StorageCrate_10.Location = new System.Drawing.Point(30, 310);
+            this.StorageCrate_10.Name = "StorageCrate_10";
+            this.StorageCrate_10.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_10.TabIndex = 12;
             // 
-            // storageCrate_15
+            // StorageCrate_15
             // 
-            this.storageCrate_15.Location = new System.Drawing.Point(30, 450);
-            this.storageCrate_15.Name = "storageCrate_15";
-            this.storageCrate_15.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_15.TabIndex = 13;
+            this.StorageCrate_15.Location = new System.Drawing.Point(30, 450);
+            this.StorageCrate_15.Name = "StorageCrate_15";
+            this.StorageCrate_15.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_15.TabIndex = 13;
             // 
-            // storageCrate_16
+            // StorageCrate_16
             // 
-            this.storageCrate_16.Location = new System.Drawing.Point(200, 450);
-            this.storageCrate_16.Name = "storageCrate_16";
-            this.storageCrate_16.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_16.TabIndex = 17;
+            this.StorageCrate_16.Location = new System.Drawing.Point(200, 450);
+            this.StorageCrate_16.Name = "StorageCrate_16";
+            this.StorageCrate_16.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_16.TabIndex = 17;
             // 
-            // storageCrate_11
+            // StorageCrate_11
             // 
-            this.storageCrate_11.Location = new System.Drawing.Point(200, 310);
-            this.storageCrate_11.Name = "storageCrate_11";
-            this.storageCrate_11.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_11.TabIndex = 16;
+            this.StorageCrate_11.Location = new System.Drawing.Point(200, 310);
+            this.StorageCrate_11.Name = "StorageCrate_11";
+            this.StorageCrate_11.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_11.TabIndex = 16;
             // 
-            // storageCrate_6
+            // StorageCrate_6
             // 
-            this.storageCrate_6.Location = new System.Drawing.Point(200, 170);
-            this.storageCrate_6.Name = "storageCrate_6";
-            this.storageCrate_6.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_6.TabIndex = 15;
+            this.StorageCrate_6.Location = new System.Drawing.Point(200, 170);
+            this.StorageCrate_6.Name = "StorageCrate_6";
+            this.StorageCrate_6.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_6.TabIndex = 15;
             // 
-            // storageCrate_1
+            // StorageCrate_1
             // 
-            this.storageCrate_1.Location = new System.Drawing.Point(200, 30);
-            this.storageCrate_1.Name = "storageCrate_1";
-            this.storageCrate_1.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_1.TabIndex = 14;
+            this.StorageCrate_1.Location = new System.Drawing.Point(200, 30);
+            this.StorageCrate_1.Name = "StorageCrate_1";
+            this.StorageCrate_1.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_1.TabIndex = 14;
             // 
-            // storageCrate_17
+            // StorageCrate_17
             // 
-            this.storageCrate_17.Location = new System.Drawing.Point(370, 450);
-            this.storageCrate_17.Name = "storageCrate_17";
-            this.storageCrate_17.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_17.TabIndex = 21;
+            this.StorageCrate_17.Location = new System.Drawing.Point(370, 450);
+            this.StorageCrate_17.Name = "StorageCrate_17";
+            this.StorageCrate_17.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_17.TabIndex = 21;
             // 
-            // storageCrate_12
+            // StorageCrate_12
             // 
-            this.storageCrate_12.Location = new System.Drawing.Point(370, 310);
-            this.storageCrate_12.Name = "storageCrate_12";
-            this.storageCrate_12.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_12.TabIndex = 20;
+            this.StorageCrate_12.Location = new System.Drawing.Point(370, 310);
+            this.StorageCrate_12.Name = "StorageCrate_12";
+            this.StorageCrate_12.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_12.TabIndex = 20;
             // 
-            // storageCrate_7
+            // StorageCrate_7
             // 
-            this.storageCrate_7.Location = new System.Drawing.Point(370, 170);
-            this.storageCrate_7.Name = "storageCrate_7";
-            this.storageCrate_7.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_7.TabIndex = 19;
+            this.StorageCrate_7.Location = new System.Drawing.Point(370, 170);
+            this.StorageCrate_7.Name = "StorageCrate_7";
+            this.StorageCrate_7.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_7.TabIndex = 19;
             // 
-            // storageCrate_2
+            // StorageCrate_2
             // 
-            this.storageCrate_2.Location = new System.Drawing.Point(370, 30);
-            this.storageCrate_2.Name = "storageCrate_2";
-            this.storageCrate_2.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_2.TabIndex = 18;
+            this.StorageCrate_2.Location = new System.Drawing.Point(370, 30);
+            this.StorageCrate_2.Name = "StorageCrate_2";
+            this.StorageCrate_2.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_2.TabIndex = 18;
             // 
-            // storageCrate_19
+            // StorageCrate_19
             // 
-            this.storageCrate_19.Location = new System.Drawing.Point(710, 450);
-            this.storageCrate_19.Name = "storageCrate_19";
-            this.storageCrate_19.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_19.TabIndex = 29;
+            this.StorageCrate_19.Location = new System.Drawing.Point(710, 450);
+            this.StorageCrate_19.Name = "StorageCrate_19";
+            this.StorageCrate_19.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_19.TabIndex = 29;
             // 
-            // storageCrate_14
+            // StorageCrate_14
             // 
-            this.storageCrate_14.Location = new System.Drawing.Point(710, 310);
-            this.storageCrate_14.Name = "storageCrate_14";
-            this.storageCrate_14.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_14.TabIndex = 28;
+            this.StorageCrate_14.Location = new System.Drawing.Point(710, 310);
+            this.StorageCrate_14.Name = "StorageCrate_14";
+            this.StorageCrate_14.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_14.TabIndex = 28;
             // 
-            // storageCrate_9
+            // StorageCrate_9
             // 
-            this.storageCrate_9.Location = new System.Drawing.Point(710, 170);
-            this.storageCrate_9.Name = "storageCrate_9";
-            this.storageCrate_9.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_9.TabIndex = 27;
+            this.StorageCrate_9.Location = new System.Drawing.Point(710, 170);
+            this.StorageCrate_9.Name = "StorageCrate_9";
+            this.StorageCrate_9.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_9.TabIndex = 27;
             // 
-            // storageCrate_4
+            // StorageCrate_4
             // 
-            this.storageCrate_4.Location = new System.Drawing.Point(710, 30);
-            this.storageCrate_4.Name = "storageCrate_4";
-            this.storageCrate_4.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_4.TabIndex = 26;
+            this.StorageCrate_4.Location = new System.Drawing.Point(710, 30);
+            this.StorageCrate_4.Name = "StorageCrate_4";
+            this.StorageCrate_4.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_4.TabIndex = 26;
             // 
-            // storageCrate_18
+            // StorageCrate_18
             // 
-            this.storageCrate_18.Location = new System.Drawing.Point(540, 450);
-            this.storageCrate_18.Name = "storageCrate_18";
-            this.storageCrate_18.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_18.TabIndex = 25;
+            this.StorageCrate_18.Location = new System.Drawing.Point(540, 450);
+            this.StorageCrate_18.Name = "StorageCrate_18";
+            this.StorageCrate_18.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_18.TabIndex = 25;
             // 
-            // storageCrate_13
+            // StorageCrate_13
             // 
-            this.storageCrate_13.Location = new System.Drawing.Point(540, 310);
-            this.storageCrate_13.Name = "storageCrate_13";
-            this.storageCrate_13.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_13.TabIndex = 24;
+            this.StorageCrate_13.Location = new System.Drawing.Point(540, 310);
+            this.StorageCrate_13.Name = "StorageCrate_13";
+            this.StorageCrate_13.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_13.TabIndex = 24;
             // 
-            // storageCrate_8
+            // StorageCrate_8
             // 
-            this.storageCrate_8.Location = new System.Drawing.Point(540, 170);
-            this.storageCrate_8.Name = "storageCrate_8";
-            this.storageCrate_8.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_8.TabIndex = 23;
+            this.StorageCrate_8.Location = new System.Drawing.Point(540, 170);
+            this.StorageCrate_8.Name = "StorageCrate_8";
+            this.StorageCrate_8.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_8.TabIndex = 23;
             // 
-            // storageCrate_3
+            // StorageCrate_3
             // 
-            this.storageCrate_3.Location = new System.Drawing.Point(540, 30);
-            this.storageCrate_3.Name = "storageCrate_3";
-            this.storageCrate_3.Size = new System.Drawing.Size(150, 120);
-            this.storageCrate_3.TabIndex = 22;
+            this.StorageCrate_3.Location = new System.Drawing.Point(540, 30);
+            this.StorageCrate_3.Name = "StorageCrate_3";
+            this.StorageCrate_3.Size = new System.Drawing.Size(150, 120);
+            this.StorageCrate_3.TabIndex = 22;
             // 
             // StorageDisplay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(982, 593);
-            this.Controls.Add(this.storageCrate_19);
-            this.Controls.Add(this.storageCrate_14);
-            this.Controls.Add(this.storageCrate_9);
-            this.Controls.Add(this.storageCrate_4);
-            this.Controls.Add(this.storageCrate_18);
-            this.Controls.Add(this.storageCrate_13);
-            this.Controls.Add(this.storageCrate_8);
-            this.Controls.Add(this.storageCrate_3);
-            this.Controls.Add(this.storageCrate_17);
-            this.Controls.Add(this.storageCrate_12);
-            this.Controls.Add(this.storageCrate_7);
-            this.Controls.Add(this.storageCrate_2);
-            this.Controls.Add(this.storageCrate_16);
-            this.Controls.Add(this.storageCrate_11);
-            this.Controls.Add(this.storageCrate_6);
-            this.Controls.Add(this.storageCrate_1);
-            this.Controls.Add(this.storageCrate_15);
-            this.Controls.Add(this.storageCrate_10);
-            this.Controls.Add(this.storageCrate_5);
-            this.Controls.Add(this.storageCrate_0);
+            this.Controls.Add(this.StorageCrate_19);
+            this.Controls.Add(this.StorageCrate_14);
+            this.Controls.Add(this.StorageCrate_9);
+            this.Controls.Add(this.StorageCrate_4);
+            this.Controls.Add(this.StorageCrate_18);
+            this.Controls.Add(this.StorageCrate_13);
+            this.Controls.Add(this.StorageCrate_8);
+            this.Controls.Add(this.StorageCrate_3);
+            this.Controls.Add(this.StorageCrate_17);
+            this.Controls.Add(this.StorageCrate_12);
+            this.Controls.Add(this.StorageCrate_7);
+            this.Controls.Add(this.StorageCrate_2);
+            this.Controls.Add(this.StorageCrate_16);
+            this.Controls.Add(this.StorageCrate_11);
+            this.Controls.Add(this.StorageCrate_6);
+            this.Controls.Add(this.StorageCrate_1);
+            this.Controls.Add(this.StorageCrate_15);
+            this.Controls.Add(this.StorageCrate_10);
+            this.Controls.Add(this.StorageCrate_5);
+            this.Controls.Add(this.StorageCrate_0);
             this.Controls.Add(this.btn_cancel);
             this.Controls.Add(this.btn_floorboard_background);
             this.Name = "StorageDisplay";
@@ -254,25 +254,25 @@
 
         private System.Windows.Forms.Button btn_floorboard_background;
         private System.Windows.Forms.Button btn_cancel;
-        private StorageCrate storageCrate_0;
-        private StorageCrate storageCrate_5;
-        private StorageCrate storageCrate_10;
-        private StorageCrate storageCrate_15;
-        private StorageCrate storageCrate_16;
-        private StorageCrate storageCrate_11;
-        private StorageCrate storageCrate_6;
-        private StorageCrate storageCrate_1;
-        private StorageCrate storageCrate_17;
-        private StorageCrate storageCrate_12;
-        private StorageCrate storageCrate_7;
-        private StorageCrate storageCrate_2;
-        private StorageCrate storageCrate_19;
-        private StorageCrate storageCrate_14;
-        private StorageCrate storageCrate_9;
-        private StorageCrate storageCrate_4;
-        private StorageCrate storageCrate_18;
-        private StorageCrate storageCrate_13;
-        private StorageCrate storageCrate_8;
-        private StorageCrate storageCrate_3;
+        private StorageCrate StorageCrate_0;
+        private StorageCrate StorageCrate_5;
+        private StorageCrate StorageCrate_10;
+        private StorageCrate StorageCrate_15;
+        private StorageCrate StorageCrate_16;
+        private StorageCrate StorageCrate_11;
+        private StorageCrate StorageCrate_6;
+        private StorageCrate StorageCrate_1;
+        private StorageCrate StorageCrate_17;
+        private StorageCrate StorageCrate_12;
+        private StorageCrate StorageCrate_7;
+        private StorageCrate StorageCrate_2;
+        private StorageCrate StorageCrate_19;
+        private StorageCrate StorageCrate_14;
+        private StorageCrate StorageCrate_9;
+        private StorageCrate StorageCrate_4;
+        private StorageCrate StorageCrate_18;
+        private StorageCrate StorageCrate_13;
+        private StorageCrate StorageCrate_8;
+        private StorageCrate StorageCrate_3;
     }
 }

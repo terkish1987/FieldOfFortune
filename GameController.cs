@@ -39,18 +39,26 @@ namespace FieldsOfFortune
         public void BuyFieldCell()
         {
             money -= fieldPriceList[fieldCount];
+
             Form1.Instance.ChangeMoney();
             fieldList[fieldID].fg.BuyFieldCellGraphics();
+
+            fieldList[fieldID].owned = true;
             fieldCount += 1;
+
             Field.Instance.BuyFieldCellVar();
         }
 
         public void BuyStorageCrate()
         {
             money -= storagePriceList[storageCount];
+
             Form1.Instance.ChangeMoney();
             storageList[storageID].sc.BuyStorageCrateGraphics();
+
+            storageList[storageID].owned = true;
             storageCount += 1;
+
             Storage.Instance.BuyStorageCrateVar();
         }
 

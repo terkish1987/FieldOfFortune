@@ -124,8 +124,8 @@
   <data name="Background-Grass" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Background-Grass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Button_Frame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Button_Frame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bin Icon - Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bin Icon - Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Storage Building" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Storage Building.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,11 +163,14 @@
   <data name="Button_Frame (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Button_Frame (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="calendar-day-cartoon-icon-business-with-simple-design" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar-day-cartoon-icon-business-with-simple-design.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Screenshot 2024-11-21 175122" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2024-11-21 175122.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="circle_frame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\circle_frame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Screenshot 2024-11-30 175151" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2024-11-30 175151.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Field-Growing" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Field-Growing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -177,9 +180,6 @@
   </data>
   <data name="UI_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\UI_Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bin Icon - Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bin Icon - Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Picture2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Picture2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,11 +202,14 @@
   <data name="fence_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fence_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="calendar-day-cartoon-icon-business-with-simple-design" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calendar-day-cartoon-icon-business-with-simple-design.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="circle_frame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle_frame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Fence Texture" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fence Texture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Frame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_Frame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Field-Ready" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Field-Ready.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,7 +217,7 @@
   <data name="Button_Frame2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Button_Frame2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Screenshot 2024-11-30 175151" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot 2024-11-30 175151.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Screenshot 2024-12-12 224404" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2024-12-12 224404.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

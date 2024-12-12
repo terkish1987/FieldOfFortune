@@ -343,6 +343,16 @@ namespace FieldsOfFortune.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2024_12_12_224404 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2024-12-12 224404", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Soil {
             get {
                 object obj = ResourceManager.GetObject("Soil", resourceCulture);

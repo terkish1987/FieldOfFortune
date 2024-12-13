@@ -26,6 +26,7 @@ namespace FieldsOfFortune
         public Form form1;
         public Form buyForm;
         public Form storageDisplay;
+        public Form PlantDisplay;
 
         //Runtime parameters
 
@@ -78,22 +79,32 @@ namespace FieldsOfFortune
             }
         }
 
+        public void CloseBuyForm()
+        {
+            InitializedForms[1].Hide();
+            InitializedForms[1].Enabled = false;
+        }
         public void OpenStorageDisplay()
         {
             InitializedForms[2].Show();
             InitializedForms[2].Enabled = true;
         }
 
-        public void CloseBuyForm()
-        {
-            InitializedForms[1].Hide();
-            InitializedForms[1].Enabled = false;
-        }
-
         public void CloseStorageDisplay()
         {
             InitializedForms[2].Hide();
             InitializedForms[2].Enabled = false;
+        }
+        public void OpenPlantDisplay()
+        {
+            InitializedForms[3].Show();
+            InitializedForms[3].Enabled = true;
+        }
+
+        public void ClosePlantDisplay()
+        {
+            InitializedForms[3].Hide();
+            InitializedForms[3].Enabled = false;
         }
 
         public void AddForm(Form form)
@@ -144,6 +155,11 @@ namespace FieldsOfFortune
             else if (id == 2)
             {
                 storageDisplay = f;
+            }
+
+            else if (id == 3)
+            {
+                PlantDisplay = f;
             }
 
         }

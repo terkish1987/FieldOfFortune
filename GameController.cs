@@ -7,6 +7,8 @@ using System.Diagnostics;
 using System.Windows.Forms;
 using System.Data.SqlTypes;
 using System.Security.Cryptography;
+using System.Runtime.InteropServices;
+using FieldsOfFortune.Properties;
 
 namespace FieldsOfFortune
 {
@@ -18,6 +20,8 @@ namespace FieldsOfFortune
 
         public List<Storage> storageList = new List<Storage>();
 
+        //public List<Plant> plantList = new List<Plant>();
+
         public List<Form> InitializedForms = new List<Form>();
 
         public List<int> fieldPriceList = new List<int> {100, 120, 140, 170, 200, 240, 290, 350, 420, 500, 600, 710, 840, 1000, 1200, 1400, 1700, 2000, 2400, 2800, 3300, 3900, 4600, 5400, 6400, 7500, 8800, 10000, 12000, 14000, 16000, 19000, 22000, 26000, 30000, 35000, 41000, 48000, 56000, 65000, 75000, 87000, 10000, 120000, 140000, 160000, 180000, 210000, 240000, 280000, 320000, 370000, 420000, 480000, 550000, 630000, 720000, 820000, 940000, 1100000, 1300000, 1500000, 1700000, 1900000};
@@ -28,14 +32,45 @@ namespace FieldsOfFortune
         public Form storageDisplay;
         public Form PlantDisplay;
 
+        //Validation variables
+
+        public bool fieldCheck;
+        public bool storageCheck;
+        public bool marketCheck;
+        public bool offersCheck;
+
         //Runtime parameters
 
         public int fieldID;
         public int storageID;
+        public int plantID;
+
         public int fieldCount = 0;
         public int storageCount = 0;
+
         public int money = 150;
         public string purchaseType = "";
+
+        public bool ValidateOpen()
+        {
+            bool check = false;
+            if (fieldCheck || storageCheck || marketCheck || offersCheck)
+            {
+                check = true;
+            }
+            return check;
+        }
+
+        public void ValidateBuy(int ID, string purchaseType)
+        {
+            if (ValidateOpen())
+            {
+                return;
+            }
+
+            fieldCheck = true;
+            OpenBuyForm(ID, purchaseType);
+        }
 
         public void BuyFieldCell()
         {
@@ -68,35 +103,53 @@ namespace FieldsOfFortune
             if (purchaseType == "field")
             {
                 fieldID = ID;
-                InitializedForms[1].Show();
-                InitializedForms[1].Enabled = true;
             }
             else if (purchaseType == "storage")
             {
                 storageID = ID;
-                InitializedForms[1].Show();
-                InitializedForms[1].Enabled = true;
             }
+
+            InitializedForms[1].Enabled = true;
+            InitializedForms[1].Show();
         }
 
         public void CloseBuyForm()
         {
             InitializedForms[1].Hide();
             InitializedForms[1].Enabled = false;
+
+            if (fieldCheck)
+            {
+                fieldCheck = false;
+            }
         }
+
         public void OpenStorageDisplay()
         {
-            InitializedForms[2].Show();
+            if (ValidateOpen())
+            {
+                return;
+            }
+
+            storageCheck = true;
             InitializedForms[2].Enabled = true;
+            InitializedForms[2].Show();
         }
 
         public void CloseStorageDisplay()
         {
             InitializedForms[2].Hide();
             InitializedForms[2].Enabled = false;
+
+            storageCheck = false;
         }
-        public void OpenPlantDisplay()
+
+        public void OpenPlantDisplay(int ID)
         {
+            if (!fieldList[ID].owned)
+            {
+                return;
+            }
             InitializedForms[3].Show();
             InitializedForms[3].Enabled = true;
         }
@@ -116,7 +169,7 @@ namespace FieldsOfFortune
         {
             InitializedForms.Remove(form);
         }
-
+        
         public void ShowInitializedForms()
         {
             foreach (var form in InitializedForms)
@@ -161,7 +214,6 @@ namespace FieldsOfFortune
             {
                 PlantDisplay = f;
             }
-
         }
 
         public void ShowForm(int id)

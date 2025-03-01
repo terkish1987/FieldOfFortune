@@ -24,13 +24,18 @@ namespace FieldsOfFortune
         private void btn_buy_field_cell_Click(object sender, EventArgs e)
         {
             GameController.Instance.purchaseType = "field";
-            GameController.Instance.OpenBuyForm(ID, GameController.Instance.purchaseType);
+            GameController.Instance.ValidateBuy(ID, GameController.Instance.purchaseType);
         }
 
         public void BuyFieldCellGraphics()
         {
             btn_buy_field_cell.Visible = false;
             btn_buy_field_cell.Enabled = false;
+        }
+
+        private void btn_unused_field_cell_Click(object sender, EventArgs e)
+        {
+            GameController.Instance.OpenPlantDisplay(ID);
         }
     }
 }

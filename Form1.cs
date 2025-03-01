@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FieldsOfFortune.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -151,7 +152,6 @@ namespace FieldsOfFortune
             FieldGroup_62.ID = 62;
             FieldInitialization(FieldGroup_63);
             FieldGroup_63.ID = 63;
-            GameController.Instance.SetReference(this, 0);
         }
         public void FieldInitialization(FieldGroup fg)
         {
@@ -162,15 +162,6 @@ namespace FieldsOfFortune
             GameController.Instance.AddField(f);
 
         }
-
-        /*public void Test()
-        {
-            GameController.Instance.fieldList[0].fg.btn_buy_field_cell.Visible = false;
-            GameController.Instance.fieldList[0].fg.btn_unused_field_cell.Visible = false;
-            GameController.Instance.fieldList[0].fg.btn_growing_field_cell.Visible = true;
-            GameController.Instance.fieldList[0].fg.txt_day_progress.Visible = true;
-            GameController.Instance.fieldList[0].fg.txt_day_progress.Text = "test";
-        }*/
 
         public void ChangeMoney()
         {

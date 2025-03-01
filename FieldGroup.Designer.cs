@@ -155,9 +155,10 @@
             this.btn_unused_field_cell.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_unused_field_cell.Location = new System.Drawing.Point(0, 0);
             this.btn_unused_field_cell.Name = "btn_unused_field_cell";
-            this.btn_unused_field_cell.Size = new System.Drawing.Size(80, 80);
+            this.btn_unused_field_cell.Size = new System.Drawing.Size(80, 82);
             this.btn_unused_field_cell.TabIndex = 16;
             this.btn_unused_field_cell.UseVisualStyleBackColor = true;
+            this.btn_unused_field_cell.Click += new System.EventHandler(this.btn_unused_field_cell_Click);
             // 
             // pb_product_icon
             // 
@@ -185,7 +186,7 @@
             this.Controls.Add(this.btn_buy_field_cell);
             this.Controls.Add(this.btn_unused_field_cell);
             this.Name = "FieldGroup";
-            this.Size = new System.Drawing.Size(80, 80);
+            this.Size = new System.Drawing.Size(64, 64);
             ((System.ComponentModel.ISupportInitialize)(this.pb_product_icon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

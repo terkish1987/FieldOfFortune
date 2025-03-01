@@ -29,7 +29,11 @@
         private void InitializeComponent()
         {
             this.btn_box_frame = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_plant_product = new System.Windows.Forms.Button();
+            this.btn_product_icon_overlay = new System.Windows.Forms.Button();
+            this.txt_stock_amount = new System.Windows.Forms.TextBox();
+            this.pb_product_icon = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_product_icon)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_box_frame
@@ -44,36 +48,77 @@
             this.btn_box_frame.TabIndex = 0;
             this.btn_box_frame.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btn_plant_product
             // 
-            this.button1.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Confirm_Button;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Berlin Sans FB", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(40, 168);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 47);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Plant";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_plant_product.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Confirm_Button;
+            this.btn_plant_product.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_plant_product.FlatAppearance.BorderSize = 0;
+            this.btn_plant_product.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_plant_product.Font = new System.Drawing.Font("Berlin Sans FB", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_plant_product.ForeColor = System.Drawing.Color.White;
+            this.btn_plant_product.Location = new System.Drawing.Point(40, 168);
+            this.btn_plant_product.Name = "btn_plant_product";
+            this.btn_plant_product.Size = new System.Drawing.Size(101, 50);
+            this.btn_plant_product.TabIndex = 1;
+            this.btn_plant_product.Text = "Plant";
+            this.btn_plant_product.UseVisualStyleBackColor = true;
+            // 
+            // btn_product_icon_overlay
+            // 
+            this.btn_product_icon_overlay.BackgroundImage = global::FieldsOfFortune.Properties.Resources.circle_frame;
+            this.btn_product_icon_overlay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_product_icon_overlay.FlatAppearance.BorderSize = 0;
+            this.btn_product_icon_overlay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_product_icon_overlay.Location = new System.Drawing.Point(36, 19);
+            this.btn_product_icon_overlay.Name = "btn_product_icon_overlay";
+            this.btn_product_icon_overlay.Size = new System.Drawing.Size(121, 119);
+            this.btn_product_icon_overlay.TabIndex = 27;
+            this.btn_product_icon_overlay.UseVisualStyleBackColor = true;
+            // 
+            // txt_stock_amount
+            // 
+            this.txt_stock_amount.Font = new System.Drawing.Font("Berlin Sans FB", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_stock_amount.Location = new System.Drawing.Point(51, 123);
+            this.txt_stock_amount.Name = "txt_stock_amount";
+            this.txt_stock_amount.Size = new System.Drawing.Size(74, 51);
+            this.txt_stock_amount.TabIndex = 28;
+            this.txt_stock_amount.TabStop = false;
+            this.txt_stock_amount.Text = "1";
+            this.txt_stock_amount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_stock_amount.Visible = false;
+            // 
+            // pb_product_icon
+            // 
+            this.pb_product_icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pb_product_icon.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.pb_product_icon.Location = new System.Drawing.Point(29, 15);
+            this.pb_product_icon.Name = "pb_product_icon";
+            this.pb_product_icon.Size = new System.Drawing.Size(121, 119);
+            this.pb_product_icon.TabIndex = 29;
+            this.pb_product_icon.TabStop = false;
             // 
             // PlantProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txt_stock_amount);
+            this.Controls.Add(this.pb_product_icon);
+            this.Controls.Add(this.btn_product_icon_overlay);
+            this.Controls.Add(this.btn_plant_product);
             this.Controls.Add(this.btn_box_frame);
             this.Name = "PlantProduct";
             this.Size = new System.Drawing.Size(180, 250);
+            ((System.ComponentModel.ISupportInitialize)(this.pb_product_icon)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btn_box_frame;
-        public System.Windows.Forms.Button button1;
+        public System.Windows.Forms.Button btn_plant_product;
+        public System.Windows.Forms.Button btn_product_icon_overlay;
+        public System.Windows.Forms.TextBox txt_stock_amount;
+        public System.Windows.Forms.PictureBox pb_product_icon;
+        public System.Windows.Forms.Button btn_box_frame;
     }
 }

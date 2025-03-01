@@ -66,6 +66,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="GameController.cs" />
+    <Compile Include="Plant.cs" />
     <Compile Include="PlantDisplay.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +79,7 @@
     <Compile Include="PlantProduct.Designer.cs">
       <DependentUpon>PlantProduct.cs</DependentUpon>
     </Compile>
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Storage.cs" />
@@ -238,6 +240,66 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Screenshot 2024-12-12 224404.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Apple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Cauliflower.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Cucumber.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Garlic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Grapes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Kiwi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Mango.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Onion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Papaya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Pineapple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Plum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Cabbage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Carrot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Cherry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Ginger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Potato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Pumpkin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Strawberry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Tomato.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

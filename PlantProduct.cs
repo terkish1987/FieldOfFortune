@@ -12,6 +12,8 @@ namespace FieldsOfFortune
 {
     public partial class PlantProduct : UserControl
     {
+        public int ID { get; set; }
+
         public PlantProduct()
         {
             InitializeComponent();

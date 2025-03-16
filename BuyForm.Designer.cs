@@ -125,10 +125,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btn_form_frame;
-        private System.Windows.Forms.Button btn_coin_icon;
-        private System.Windows.Forms.Button btn_cancel;
-        private System.Windows.Forms.Button btn_confirm;
-        private System.Windows.Forms.Label lbl_price;
+        public System.Windows.Forms.Button btn_form_frame;
+        public System.Windows.Forms.Button btn_coin_icon;
+        public System.Windows.Forms.Button btn_cancel;
+        public System.Windows.Forms.Button btn_confirm;
+        public System.Windows.Forms.Label lbl_price;
     }
 }

@@ -70,6 +70,14 @@ namespace FieldsOfFortune
             Storage s = new Storage();
             s.sc = sc;
 
+            s.owned = false;
+            s.capacity = 150;
+            s.productID = -1; // If there is no product, ID is -1
+            s.productName = "";
+            s.productQty = 0;
+            s.onMarket = false;
+            s.price = 0;
+
             GameController.Instance.AddStorage(s);
         }
 

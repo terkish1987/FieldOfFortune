@@ -153,14 +153,23 @@ namespace FieldsOfFortune
             FieldInitialization(FieldGroup_63);
             FieldGroup_63.ID = 63;
         }
+
         public void FieldInitialization(FieldGroup fg)
         {
 
             Field f = new Field();
             f.fg = fg;
 
-            GameController.Instance.AddField(f);
+            f.owned = false;
+            f.growing = false;
+            f.harvesting = false;
+            f.currentGrowInteger = 0;
+            f.growTime = 0;
+            f.currentHarvest = 0;
+            f.harvestTime = 0;
+            f.productID = -1;
 
+            GameController.Instance.AddField(f);
         }
 
         public void ChangeMoney()

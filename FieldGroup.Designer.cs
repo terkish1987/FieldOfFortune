@@ -46,7 +46,7 @@
             this.txt_day_progress.Font = new System.Drawing.Font("Berlin Sans FB", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_day_progress.Location = new System.Drawing.Point(3, 31);
             this.txt_day_progress.Name = "txt_day_progress";
-            this.txt_day_progress.Size = new System.Drawing.Size(74, 51);
+            this.txt_day_progress.Size = new System.Drawing.Size(74, 43);
             this.txt_day_progress.TabIndex = 25;
             this.txt_day_progress.TabStop = false;
             this.txt_day_progress.Text = "0/1";
@@ -155,7 +155,7 @@
             this.btn_unused_field_cell.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_unused_field_cell.Location = new System.Drawing.Point(0, 0);
             this.btn_unused_field_cell.Name = "btn_unused_field_cell";
-            this.btn_unused_field_cell.Size = new System.Drawing.Size(80, 82);
+            this.btn_unused_field_cell.Size = new System.Drawing.Size(80, 80);
             this.btn_unused_field_cell.TabIndex = 16;
             this.btn_unused_field_cell.UseVisualStyleBackColor = true;
             this.btn_unused_field_cell.Click += new System.EventHandler(this.btn_unused_field_cell_Click);
@@ -173,8 +173,8 @@
             // 
             // FieldGroup
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.txt_day_progress);
             this.Controls.Add(this.pb_product_icon);
             this.Controls.Add(this.btn_product_icon_overlay);
@@ -186,7 +186,8 @@
             this.Controls.Add(this.btn_buy_field_cell);
             this.Controls.Add(this.btn_unused_field_cell);
             this.Name = "FieldGroup";
-            this.Size = new System.Drawing.Size(64, 64);
+            this.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Size = new System.Drawing.Size(80, 80);
             ((System.ComponentModel.ISupportInitialize)(this.pb_product_icon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

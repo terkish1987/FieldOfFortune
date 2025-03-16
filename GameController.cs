@@ -26,6 +26,7 @@ namespace FieldsOfFortune
 
         public List<int> fieldPriceList = new List<int> {100, 120, 140, 170, 200, 240, 290, 350, 420, 500, 600, 710, 840, 1000, 1200, 1400, 1700, 2000, 2400, 2800, 3300, 3900, 4600, 5400, 6400, 7500, 8800, 10000, 12000, 14000, 16000, 19000, 22000, 26000, 30000, 35000, 41000, 48000, 56000, 65000, 75000, 87000, 10000, 120000, 140000, 160000, 180000, 210000, 240000, 280000, 320000, 370000, 420000, 480000, 550000, 630000, 720000, 820000, 940000, 1100000, 1300000, 1500000, 1700000, 1900000};
         public List<int> storagePriceList = new List<int> {47, 90, 160, 280, 500, 880, 1500, 2600, 4500, 7800, 13000, 22000, 38000, 65000, 110000, 190000, 320000, 540000, 900000, 1500000};
+        public List<bool> tutorialList = new List<bool> { false, false, false, false, false, false, false, false };
 
         public Form form1;
         public Form buyForm;
@@ -39,7 +40,7 @@ namespace FieldsOfFortune
         public bool marketCheck;
         public bool offersCheck;
 
-        //Runtime parameters
+        //Runtime variables
 
         public int fieldID;
         public int storageID;
@@ -49,6 +50,8 @@ namespace FieldsOfFortune
         public int storageCount = 0;
 
         public int money = 150;
+        public int day = 1;
+
         public string purchaseType = "";
 
         public bool ValidateOpen()
@@ -159,6 +162,8 @@ namespace FieldsOfFortune
             InitializedForms[3].Hide();
             InitializedForms[3].Enabled = false;
         }
+
+
 
         public void AddForm(Form form)
         {

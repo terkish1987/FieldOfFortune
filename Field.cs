@@ -20,6 +20,7 @@ namespace FieldsOfFortune
         public bool harvesting;
         public int currentHarvest;
         public int harvestTime;
+        public int productID;
 
         public void BuyFieldCellVar()
         {

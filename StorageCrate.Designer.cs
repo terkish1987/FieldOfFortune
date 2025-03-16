@@ -39,9 +39,10 @@
             this.lbl_stock_capacity.AutoSize = true;
             this.lbl_stock_capacity.Font = new System.Drawing.Font("Berlin Sans FB", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_stock_capacity.ForeColor = System.Drawing.Color.Black;
-            this.lbl_stock_capacity.Location = new System.Drawing.Point(34, 75);
+            this.lbl_stock_capacity.Location = new System.Drawing.Point(26, 61);
+            this.lbl_stock_capacity.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_stock_capacity.Name = "lbl_stock_capacity";
-            this.lbl_stock_capacity.Size = new System.Drawing.Size(82, 33);
+            this.lbl_stock_capacity.Size = new System.Drawing.Size(65, 26);
             this.lbl_stock_capacity.TabIndex = 2;
             this.lbl_stock_capacity.Text = "0/150";
             this.lbl_stock_capacity.Visible = false;
@@ -53,9 +54,10 @@
             this.btn_bin_icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_bin_icon.FlatAppearance.BorderSize = 0;
             this.btn_bin_icon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_bin_icon.Location = new System.Drawing.Point(107, 14);
+            this.btn_bin_icon.Location = new System.Drawing.Point(80, 11);
+            this.btn_bin_icon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_bin_icon.Name = "btn_bin_icon";
-            this.btn_bin_icon.Size = new System.Drawing.Size(30, 30);
+            this.btn_bin_icon.Size = new System.Drawing.Size(22, 24);
             this.btn_bin_icon.TabIndex = 3;
             this.btn_bin_icon.UseVisualStyleBackColor = false;
             this.btn_bin_icon.Visible = false;
@@ -68,9 +70,10 @@
             this.btn_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_buy.Font = new System.Drawing.Font("Berlin Sans FB", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_buy.ForeColor = System.Drawing.Color.White;
-            this.btn_buy.Location = new System.Drawing.Point(45, 50);
+            this.btn_buy.Location = new System.Drawing.Point(34, 41);
+            this.btn_buy.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_buy.Name = "btn_buy";
-            this.btn_buy.Size = new System.Drawing.Size(60, 20);
+            this.btn_buy.Size = new System.Drawing.Size(45, 20);
             this.btn_buy.TabIndex = 1;
             this.btn_buy.Text = "Buy";
             this.btn_buy.UseVisualStyleBackColor = true;
@@ -84,21 +87,23 @@
             this.btn_storage_crate.FlatAppearance.BorderSize = 0;
             this.btn_storage_crate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_storage_crate.Location = new System.Drawing.Point(0, 0);
+            this.btn_storage_crate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_storage_crate.Name = "btn_storage_crate";
-            this.btn_storage_crate.Size = new System.Drawing.Size(150, 120);
+            this.btn_storage_crate.Size = new System.Drawing.Size(112, 98);
             this.btn_storage_crate.TabIndex = 0;
             this.btn_storage_crate.UseVisualStyleBackColor = false;
             // 
             // StorageCrate
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.btn_bin_icon);
             this.Controls.Add(this.lbl_stock_capacity);
             this.Controls.Add(this.btn_buy);
             this.Controls.Add(this.btn_storage_crate);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "StorageCrate";
-            this.Size = new System.Drawing.Size(150, 120);
+            this.Size = new System.Drawing.Size(112, 98);
             this.ResumeLayout(false);
             this.PerformLayout();
 

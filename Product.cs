@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace FieldsOfFortune
 {
-    internal class Product
+    public class Product
     {
+        public static Product Instance = new Product();
+
         public int index;
         public string name;
         public string type;
@@ -20,6 +22,7 @@ namespace FieldsOfFortune
         public int marketRating;
         public decimal marketMargin;
         public decimal marketCost;
+        public bool onMarket;
         public Image icon;
 
     }

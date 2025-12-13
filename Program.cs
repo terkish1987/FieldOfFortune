@@ -17,6 +17,7 @@ namespace FieldsOfFortune
         public static Form buyForm;
         public static Form storageDisplay;
         public static Form plantDisplay;
+        public static Form marketDisplay;
 
         [STAThread]
         static void Main()
@@ -33,6 +34,7 @@ namespace FieldsOfFortune
             buyForm = new BuyForm();
             storageDisplay = new StorageDisplay();
             plantDisplay = new PlantDisplay();
+            marketDisplay = new MarketDisplay();
 
             buyForm.Name = "BuyForm";
 
@@ -40,6 +42,7 @@ namespace FieldsOfFortune
             GameController.Instance.AddForm(buyForm);
             GameController.Instance.AddForm(storageDisplay);
             GameController.Instance.AddForm(plantDisplay);
+            GameController.Instance.AddForm(marketDisplay);
             GameController.Instance.ShowInitializedForms();
 
             GameController.Instance.InitializedForms[2].Owner = GameController.Instance.InitializedForms[0];

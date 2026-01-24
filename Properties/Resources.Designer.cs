@@ -153,6 +153,16 @@ namespace FieldsOfFortune.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cancel_Button1 {
+            get {
+                object obj = ResourceManager.GetObject("Cancel_Button1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Circle_Arrows {
             get {
                 object obj = ResourceManager.GetObject("Circle_Arrows", resourceCulture);
@@ -256,6 +266,36 @@ namespace FieldsOfFortune.Properties {
         internal static System.Drawing.Bitmap Form_Frame {
             get {
                 object obj = ResourceManager.GetObject("Form_Frame", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap form_frame_green_line {
+            get {
+                object obj = ResourceManager.GetObject("form_frame-green_line", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Form_Frame_GreenLine {
+            get {
+                object obj = ResourceManager.GetObject("Form_Frame_GreenLine", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Form_Frame_GreenLine1 {
+            get {
+                object obj = ResourceManager.GetObject("Form_Frame_GreenLine1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -496,6 +536,16 @@ namespace FieldsOfFortune.Properties {
         internal static System.Drawing.Bitmap Ok_Button {
             get {
                 object obj = ResourceManager.GetObject("Ok_Button", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Ok_Button1 {
+            get {
+                object obj = ResourceManager.GetObject("Ok_Button1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

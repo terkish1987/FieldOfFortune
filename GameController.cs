@@ -60,6 +60,14 @@ namespace FieldsOfFortune
 
         public string purchaseType = "";
 
+        //Default variables
+
+        public int minSupply = 500;
+        public int maxSupply = 1500;
+
+        public int minDemand = 700;
+        public int maxDemand = 1500;
+
         public bool ValidateOpen()
         {
             bool check = false;
@@ -167,6 +175,60 @@ namespace FieldsOfFortune
         {
             InitializedForms[3].Hide();
             InitializedForms[3].Enabled = false;
+        }
+
+        public void OpenMarketDisplay()
+        {
+            if (ValidateOpen())
+            {
+                return;
+            }
+
+            marketCheck = true;
+
+            //loop through 20 products - each individual product line 4 sections update (info, sell, trends, buy)
+            for (int i = 0; i < productList.Count; i++)
+            {
+                //INFO: *static*
+                //fetch product icon and update object
+                //fetch product name and update object
+
+                //SELL: if statement; product on-market? if so, display user's selling price; if not, default 
+                if (productList[i].onMarket)
+                {
+                    //fetch latest price (possibly user-edited, or still default) and update object
+                    //update sign to tick
+                }
+                else
+                {
+                    //display price
+                    //update sign to cross
+                }
+                
+                //TRENDS: *6 elements total* update both arrows (based on change from previous day; requires mathematical calculations to determine % of change) and rating bar
+                
+                //supply arrow... fetch sDiff, update
+                //demand arow... fetch dDiff, update
+
+                //float sChange = (divide sDiff by oldSupply); display as percentage
+                //float dChange = (divide dDiff by oldDemand); display as percentage
+
+                //fetch marketRating; display and update bar level object
+                //display marketRating
+
+                //BUY: default sets amount to 0; product purchase price fluctuates based on market rating
+                //fetch marketCost and update object
+                //amount = 0
+            }
+
+            InitializedForms[4].Show();
+            InitializedForms[4].Enabled = true;
+        }
+
+        public void CloseMarketDisplay()
+        {
+            InitializedForms[4].Hide();
+            InitializedForms[4].Enabled = false;
         }
 
 

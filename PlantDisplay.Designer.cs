@@ -29,33 +29,32 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btn_cancel = new System.Windows.Forms.Button();
-            this.plantProduct1 = new FieldsOfFortune.PlantProduct();
-            this.plantProduct2 = new FieldsOfFortune.PlantProduct();
-            this.plantProduct3 = new FieldsOfFortune.PlantProduct();
-            this.plantProduct4 = new FieldsOfFortune.PlantProduct();
-            this.plantProduct5 = new FieldsOfFortune.PlantProduct();
-            this.plantProduct6 = new FieldsOfFortune.PlantProduct();
-            this.plantProduct7 = new FieldsOfFortune.PlantProduct();
-            this.plantProduct8 = new FieldsOfFortune.PlantProduct();
-            this.plantProduct9 = new FieldsOfFortune.PlantProduct();
-            this.plantProduct10 = new FieldsOfFortune.PlantProduct();
-            this.plantProduct11 = new FieldsOfFortune.PlantProduct();
-            this.plantProduct12 = new FieldsOfFortune.PlantProduct();
-            this.plantProduct13 = new FieldsOfFortune.PlantProduct();
-            this.plantProduct14 = new FieldsOfFortune.PlantProduct();
-            this.plantProduct15 = new FieldsOfFortune.PlantProduct();
             this.plantProduct16 = new FieldsOfFortune.PlantProduct();
             this.plantProduct17 = new FieldsOfFortune.PlantProduct();
             this.plantProduct18 = new FieldsOfFortune.PlantProduct();
             this.plantProduct19 = new FieldsOfFortune.PlantProduct();
             this.plantProduct20 = new FieldsOfFortune.PlantProduct();
+            this.plantProduct11 = new FieldsOfFortune.PlantProduct();
+            this.plantProduct6 = new FieldsOfFortune.PlantProduct();
+            this.plantProduct7 = new FieldsOfFortune.PlantProduct();
+            this.plantProduct12 = new FieldsOfFortune.PlantProduct();
+            this.plantProduct13 = new FieldsOfFortune.PlantProduct();
+            this.plantProduct8 = new FieldsOfFortune.PlantProduct();
+            this.plantProduct9 = new FieldsOfFortune.PlantProduct();
+            this.plantProduct14 = new FieldsOfFortune.PlantProduct();
+            this.plantProduct10 = new FieldsOfFortune.PlantProduct();
+            this.plantProduct15 = new FieldsOfFortune.PlantProduct();
+            this.plantProduct5 = new FieldsOfFortune.PlantProduct();
+            this.plantProduct4 = new FieldsOfFortune.PlantProduct();
+            this.plantProduct3 = new FieldsOfFortune.PlantProduct();
+            this.plantProduct2 = new FieldsOfFortune.PlantProduct();
+            this.plantProduct1 = new FieldsOfFortune.PlantProduct();
+            this.btn_cancel = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.plantProduct16);
             this.panel1.Controls.Add(this.plantProduct17);
@@ -82,155 +81,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(715, 425);
             this.panel1.TabIndex = 0;
-            // 
-            // btn_cancel
-            // 
-            this.btn_cancel.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Cancel_Button;
-            this.btn_cancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_cancel.FlatAppearance.BorderSize = 0;
-            this.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cancel.Location = new System.Drawing.Point(790, 45);
-            this.btn_cancel.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_cancel.Name = "btn_cancel";
-            this.btn_cancel.Size = new System.Drawing.Size(45, 50);
-            this.btn_cancel.TabIndex = 10;
-            this.btn_cancel.UseVisualStyleBackColor = true;
-            this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
-            // 
-            // plantProduct1
-            // 
-            this.plantProduct1.ID = 0;
-            this.plantProduct1.Location = new System.Drawing.Point(0, 25);
-            this.plantProduct1.Margin = new System.Windows.Forms.Padding(2);
-            this.plantProduct1.Name = "plantProduct1";
-            this.plantProduct1.Size = new System.Drawing.Size(135, 200);
-            this.plantProduct1.TabIndex = 0;
-            // 
-            // plantProduct2
-            // 
-            this.plantProduct2.ID = 1;
-            this.plantProduct2.Location = new System.Drawing.Point(140, 25);
-            this.plantProduct2.Margin = new System.Windows.Forms.Padding(2);
-            this.plantProduct2.Name = "plantProduct2";
-            this.plantProduct2.Size = new System.Drawing.Size(135, 200);
-            this.plantProduct2.TabIndex = 1;
-            // 
-            // plantProduct3
-            // 
-            this.plantProduct3.ID = 2;
-            this.plantProduct3.Location = new System.Drawing.Point(280, 25);
-            this.plantProduct3.Margin = new System.Windows.Forms.Padding(2);
-            this.plantProduct3.Name = "plantProduct3";
-            this.plantProduct3.Size = new System.Drawing.Size(135, 200);
-            this.plantProduct3.TabIndex = 2;
-            // 
-            // plantProduct4
-            // 
-            this.plantProduct4.ID = 3;
-            this.plantProduct4.Location = new System.Drawing.Point(420, 25);
-            this.plantProduct4.Margin = new System.Windows.Forms.Padding(2);
-            this.plantProduct4.Name = "plantProduct4";
-            this.plantProduct4.Size = new System.Drawing.Size(135, 200);
-            this.plantProduct4.TabIndex = 3;
-            // 
-            // plantProduct5
-            // 
-            this.plantProduct5.ID = 4;
-            this.plantProduct5.Location = new System.Drawing.Point(560, 25);
-            this.plantProduct5.Margin = new System.Windows.Forms.Padding(2);
-            this.plantProduct5.Name = "plantProduct5";
-            this.plantProduct5.Size = new System.Drawing.Size(135, 200);
-            this.plantProduct5.TabIndex = 4;
-            // 
-            // plantProduct6
-            // 
-            this.plantProduct6.ID = 9;
-            this.plantProduct6.Location = new System.Drawing.Point(560, 230);
-            this.plantProduct6.Margin = new System.Windows.Forms.Padding(2);
-            this.plantProduct6.Name = "plantProduct6";
-            this.plantProduct6.Size = new System.Drawing.Size(135, 200);
-            this.plantProduct6.TabIndex = 9;
-            // 
-            // plantProduct7
-            // 
-            this.plantProduct7.ID = 8;
-            this.plantProduct7.Location = new System.Drawing.Point(420, 230);
-            this.plantProduct7.Margin = new System.Windows.Forms.Padding(2);
-            this.plantProduct7.Name = "plantProduct7";
-            this.plantProduct7.Size = new System.Drawing.Size(135, 200);
-            this.plantProduct7.TabIndex = 8;
-            // 
-            // plantProduct8
-            // 
-            this.plantProduct8.ID = 7;
-            this.plantProduct8.Location = new System.Drawing.Point(280, 230);
-            this.plantProduct8.Margin = new System.Windows.Forms.Padding(2);
-            this.plantProduct8.Name = "plantProduct8";
-            this.plantProduct8.Size = new System.Drawing.Size(135, 200);
-            this.plantProduct8.TabIndex = 7;
-            // 
-            // plantProduct9
-            // 
-            this.plantProduct9.ID = 6;
-            this.plantProduct9.Location = new System.Drawing.Point(140, 230);
-            this.plantProduct9.Margin = new System.Windows.Forms.Padding(2);
-            this.plantProduct9.Name = "plantProduct9";
-            this.plantProduct9.Size = new System.Drawing.Size(135, 200);
-            this.plantProduct9.TabIndex = 6;
-            // 
-            // plantProduct10
-            // 
-            this.plantProduct10.ID = 5;
-            this.plantProduct10.Location = new System.Drawing.Point(0, 230);
-            this.plantProduct10.Margin = new System.Windows.Forms.Padding(2);
-            this.plantProduct10.Name = "plantProduct10";
-            this.plantProduct10.Size = new System.Drawing.Size(135, 200);
-            this.plantProduct10.TabIndex = 5;
-            // 
-            // plantProduct11
-            // 
-            this.plantProduct11.ID = 14;
-            this.plantProduct11.Location = new System.Drawing.Point(560, 435);
-            this.plantProduct11.Margin = new System.Windows.Forms.Padding(2);
-            this.plantProduct11.Name = "plantProduct11";
-            this.plantProduct11.Size = new System.Drawing.Size(135, 200);
-            this.plantProduct11.TabIndex = 14;
-            // 
-            // plantProduct12
-            // 
-            this.plantProduct12.ID = 13;
-            this.plantProduct12.Location = new System.Drawing.Point(420, 435);
-            this.plantProduct12.Margin = new System.Windows.Forms.Padding(2);
-            this.plantProduct12.Name = "plantProduct12";
-            this.plantProduct12.Size = new System.Drawing.Size(135, 200);
-            this.plantProduct12.TabIndex = 13;
-            // 
-            // plantProduct13
-            // 
-            this.plantProduct13.ID = 12;
-            this.plantProduct13.Location = new System.Drawing.Point(280, 435);
-            this.plantProduct13.Margin = new System.Windows.Forms.Padding(2);
-            this.plantProduct13.Name = "plantProduct13";
-            this.plantProduct13.Size = new System.Drawing.Size(135, 200);
-            this.plantProduct13.TabIndex = 12;
-            // 
-            // plantProduct14
-            // 
-            this.plantProduct14.ID = 11;
-            this.plantProduct14.Location = new System.Drawing.Point(140, 435);
-            this.plantProduct14.Margin = new System.Windows.Forms.Padding(2);
-            this.plantProduct14.Name = "plantProduct14";
-            this.plantProduct14.Size = new System.Drawing.Size(135, 200);
-            this.plantProduct14.TabIndex = 11;
-            // 
-            // plantProduct15
-            // 
-            this.plantProduct15.ID = 10;
-            this.plantProduct15.Location = new System.Drawing.Point(0, 435);
-            this.plantProduct15.Margin = new System.Windows.Forms.Padding(2);
-            this.plantProduct15.Name = "plantProduct15";
-            this.plantProduct15.Size = new System.Drawing.Size(135, 200);
-            this.plantProduct15.TabIndex = 10;
             // 
             // plantProduct16
             // 
@@ -276,6 +126,155 @@
             this.plantProduct20.Name = "plantProduct20";
             this.plantProduct20.Size = new System.Drawing.Size(135, 200);
             this.plantProduct20.TabIndex = 15;
+            // 
+            // plantProduct11
+            // 
+            this.plantProduct11.ID = 14;
+            this.plantProduct11.Location = new System.Drawing.Point(560, 435);
+            this.plantProduct11.Margin = new System.Windows.Forms.Padding(2);
+            this.plantProduct11.Name = "plantProduct11";
+            this.plantProduct11.Size = new System.Drawing.Size(135, 200);
+            this.plantProduct11.TabIndex = 14;
+            // 
+            // plantProduct6
+            // 
+            this.plantProduct6.ID = 9;
+            this.plantProduct6.Location = new System.Drawing.Point(560, 230);
+            this.plantProduct6.Margin = new System.Windows.Forms.Padding(2);
+            this.plantProduct6.Name = "plantProduct6";
+            this.plantProduct6.Size = new System.Drawing.Size(135, 200);
+            this.plantProduct6.TabIndex = 9;
+            // 
+            // plantProduct7
+            // 
+            this.plantProduct7.ID = 8;
+            this.plantProduct7.Location = new System.Drawing.Point(420, 230);
+            this.plantProduct7.Margin = new System.Windows.Forms.Padding(2);
+            this.plantProduct7.Name = "plantProduct7";
+            this.plantProduct7.Size = new System.Drawing.Size(135, 200);
+            this.plantProduct7.TabIndex = 8;
+            // 
+            // plantProduct12
+            // 
+            this.plantProduct12.ID = 13;
+            this.plantProduct12.Location = new System.Drawing.Point(420, 435);
+            this.plantProduct12.Margin = new System.Windows.Forms.Padding(2);
+            this.plantProduct12.Name = "plantProduct12";
+            this.plantProduct12.Size = new System.Drawing.Size(135, 200);
+            this.plantProduct12.TabIndex = 13;
+            // 
+            // plantProduct13
+            // 
+            this.plantProduct13.ID = 12;
+            this.plantProduct13.Location = new System.Drawing.Point(280, 435);
+            this.plantProduct13.Margin = new System.Windows.Forms.Padding(2);
+            this.plantProduct13.Name = "plantProduct13";
+            this.plantProduct13.Size = new System.Drawing.Size(135, 200);
+            this.plantProduct13.TabIndex = 12;
+            // 
+            // plantProduct8
+            // 
+            this.plantProduct8.ID = 7;
+            this.plantProduct8.Location = new System.Drawing.Point(280, 230);
+            this.plantProduct8.Margin = new System.Windows.Forms.Padding(2);
+            this.plantProduct8.Name = "plantProduct8";
+            this.plantProduct8.Size = new System.Drawing.Size(135, 200);
+            this.plantProduct8.TabIndex = 7;
+            // 
+            // plantProduct9
+            // 
+            this.plantProduct9.ID = 6;
+            this.plantProduct9.Location = new System.Drawing.Point(140, 230);
+            this.plantProduct9.Margin = new System.Windows.Forms.Padding(2);
+            this.plantProduct9.Name = "plantProduct9";
+            this.plantProduct9.Size = new System.Drawing.Size(135, 200);
+            this.plantProduct9.TabIndex = 6;
+            // 
+            // plantProduct14
+            // 
+            this.plantProduct14.ID = 11;
+            this.plantProduct14.Location = new System.Drawing.Point(140, 435);
+            this.plantProduct14.Margin = new System.Windows.Forms.Padding(2);
+            this.plantProduct14.Name = "plantProduct14";
+            this.plantProduct14.Size = new System.Drawing.Size(135, 200);
+            this.plantProduct14.TabIndex = 11;
+            // 
+            // plantProduct10
+            // 
+            this.plantProduct10.ID = 5;
+            this.plantProduct10.Location = new System.Drawing.Point(0, 230);
+            this.plantProduct10.Margin = new System.Windows.Forms.Padding(2);
+            this.plantProduct10.Name = "plantProduct10";
+            this.plantProduct10.Size = new System.Drawing.Size(135, 200);
+            this.plantProduct10.TabIndex = 5;
+            // 
+            // plantProduct15
+            // 
+            this.plantProduct15.ID = 10;
+            this.plantProduct15.Location = new System.Drawing.Point(0, 435);
+            this.plantProduct15.Margin = new System.Windows.Forms.Padding(2);
+            this.plantProduct15.Name = "plantProduct15";
+            this.plantProduct15.Size = new System.Drawing.Size(135, 200);
+            this.plantProduct15.TabIndex = 10;
+            // 
+            // plantProduct5
+            // 
+            this.plantProduct5.ID = 4;
+            this.plantProduct5.Location = new System.Drawing.Point(560, 25);
+            this.plantProduct5.Margin = new System.Windows.Forms.Padding(2);
+            this.plantProduct5.Name = "plantProduct5";
+            this.plantProduct5.Size = new System.Drawing.Size(135, 200);
+            this.plantProduct5.TabIndex = 4;
+            // 
+            // plantProduct4
+            // 
+            this.plantProduct4.ID = 3;
+            this.plantProduct4.Location = new System.Drawing.Point(420, 25);
+            this.plantProduct4.Margin = new System.Windows.Forms.Padding(2);
+            this.plantProduct4.Name = "plantProduct4";
+            this.plantProduct4.Size = new System.Drawing.Size(135, 200);
+            this.plantProduct4.TabIndex = 3;
+            // 
+            // plantProduct3
+            // 
+            this.plantProduct3.ID = 2;
+            this.plantProduct3.Location = new System.Drawing.Point(280, 25);
+            this.plantProduct3.Margin = new System.Windows.Forms.Padding(2);
+            this.plantProduct3.Name = "plantProduct3";
+            this.plantProduct3.Size = new System.Drawing.Size(135, 200);
+            this.plantProduct3.TabIndex = 2;
+            // 
+            // plantProduct2
+            // 
+            this.plantProduct2.ID = 1;
+            this.plantProduct2.Location = new System.Drawing.Point(140, 25);
+            this.plantProduct2.Margin = new System.Windows.Forms.Padding(2);
+            this.plantProduct2.Name = "plantProduct2";
+            this.plantProduct2.Size = new System.Drawing.Size(135, 200);
+            this.plantProduct2.TabIndex = 1;
+            // 
+            // plantProduct1
+            // 
+            this.plantProduct1.ID = 0;
+            this.plantProduct1.Location = new System.Drawing.Point(0, 25);
+            this.plantProduct1.Margin = new System.Windows.Forms.Padding(2);
+            this.plantProduct1.Name = "plantProduct1";
+            this.plantProduct1.Size = new System.Drawing.Size(135, 200);
+            this.plantProduct1.TabIndex = 0;
+            // 
+            // btn_cancel
+            // 
+            this.btn_cancel.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Cancel_Button;
+            this.btn_cancel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_cancel.FlatAppearance.BorderSize = 0;
+            this.btn_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_cancel.Location = new System.Drawing.Point(790, 45);
+            this.btn_cancel.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_cancel.Name = "btn_cancel";
+            this.btn_cancel.Size = new System.Drawing.Size(45, 50);
+            this.btn_cancel.TabIndex = 10;
+            this.btn_cancel.UseVisualStyleBackColor = true;
+            this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
             // 
             // PlantDisplay
             // 

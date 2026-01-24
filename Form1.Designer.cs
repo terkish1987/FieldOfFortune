@@ -289,6 +289,7 @@
             this.btn_market.Size = new System.Drawing.Size(252, 127);
             this.btn_market.TabIndex = 2;
             this.btn_market.UseVisualStyleBackColor = false;
+            this.btn_market.Click += new System.EventHandler(this.btn_market_Click);
             // 
             // btn_storage
             // 

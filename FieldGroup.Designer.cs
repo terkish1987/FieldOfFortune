@@ -139,7 +139,7 @@
             this.btn_buy_field_cell.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_buy_field_cell.Font = new System.Drawing.Font("Berlin Sans FB", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_buy_field_cell.ForeColor = System.Drawing.Color.AntiqueWhite;
-            this.btn_buy_field_cell.Location = new System.Drawing.Point(8, 30);
+            this.btn_buy_field_cell.Location = new System.Drawing.Point(0, 0);
             this.btn_buy_field_cell.Name = "btn_buy_field_cell";
             this.btn_buy_field_cell.Size = new System.Drawing.Size(64, 20);
             this.btn_buy_field_cell.TabIndex = 18;

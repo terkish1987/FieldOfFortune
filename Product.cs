@@ -25,5 +25,12 @@ namespace FieldsOfFortune
         public bool onMarket;
         public Image icon;
 
+        public int oldSupply;
+        public int supply;
+        public int sDiff;
+
+        public int oldDemand;
+        public int demand;
+        public int dDiff;
     }
 }

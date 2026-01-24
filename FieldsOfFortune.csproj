@@ -72,6 +72,12 @@
     <Compile Include="MarketDisplay.Designer.cs">
       <DependentUpon>MarketDisplay.cs</DependentUpon>
     </Compile>
+    <Compile Include="MarketRow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MarketRow.Designer.cs">
+      <DependentUpon>MarketRow.cs</DependentUpon>
+    </Compile>
     <Compile Include="Plant.cs" />
     <Compile Include="PlantDisplay.cs">
       <SubType>Form</SubType>
@@ -112,6 +118,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MarketDisplay.resx">
       <DependentUpon>MarketDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarketRow.resx">
+      <DependentUpon>MarketRow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PlantDisplay.resx">
       <DependentUpon>PlantDisplay.cs</DependentUpon>
@@ -309,6 +318,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Icon_Tomato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Form_Frame_GreenLine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Form_Frame_GreenLine1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form_frame-green_line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ok_Button1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel_Button1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

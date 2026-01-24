@@ -181,5 +181,10 @@ namespace FieldsOfFortune
         {
             GameController.Instance.OpenStorageDisplay();
         }
+
+        private void btn_market_Click(object sender, EventArgs e)
+        {
+            GameController.Instance.OpenMarketDisplay();
+        }
     }
 }

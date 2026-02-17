@@ -24,6 +24,8 @@ namespace FieldsOfFortune
 
         public List<Product> productList = new List<Product>();
 
+        public List<MarketRow> marketList = new List<MarketRow>();
+
         public List<Form> InitializedForms = new List<Form>();
 
         public List<int> fieldPriceList = new List<int> {100, 120, 140, 170, 200, 240, 290, 350, 420, 500, 600, 710, 840, 1000, 1200, 1400, 1700, 2000, 2400, 2800, 3300, 3900, 4600, 5400, 6400, 7500, 8800, 10000, 12000, 14000, 16000, 19000, 22000, 26000, 30000, 35000, 41000, 48000, 56000, 65000, 75000, 87000, 10000, 120000, 140000, 160000, 180000, 210000, 240000, 280000, 320000, 370000, 420000, 480000, 550000, 630000, 720000, 820000, 940000, 1100000, 1300000, 1500000, 1700000, 1900000};
@@ -33,7 +35,8 @@ namespace FieldsOfFortune
         public Form form1;
         public Form buyForm;
         public Form storageDisplay;
-        public Form PlantDisplay;
+        public Form plantDisplay;
+        public Form marketDisplay;
 
         //Validation variables
 
@@ -52,8 +55,17 @@ namespace FieldsOfFortune
         public int fieldCount = 0;
         public int storageCount = 0;
 
-        public int marketRating = 1000;
         public decimal marketMargin = 0.2m;
+
+        public List<int> oldSupplyList = new List<int> {1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000};
+        public List<int> supplyList = new List<int> {1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000 };
+        public List<int> sDiffList = new List<int> {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+
+        public List<int> oldDemandList = new List<int> { 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000 };
+        public List<int> demandList = new List<int> { 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000 };
+        public List<int> dDiffList = new List<int> { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+
+        public List<int> mRatingList = new List<int> { 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000 };
 
         public int money = 150;
         public int day = 1;
@@ -67,6 +79,11 @@ namespace FieldsOfFortune
 
         public int minDemand = 700;
         public int maxDemand = 1500;
+
+        public int defaultMarketRating = 1000;
+        public decimal defaultMarketMargin = 0.2m;
+        public int defaultMoney = 150;
+        public int defaultDay = 1;
 
         public bool ValidateOpen()
         {
@@ -177,20 +194,97 @@ namespace FieldsOfFortune
             InitializedForms[3].Enabled = false;
         }
 
-        public void OpenMarketDisplay()
+        public void OpenMarketDisplay() //triggered by button click event on Form1
         {
             if (ValidateOpen())
             {
                 return;
             }
 
+            InitializedForms[4].Show(); //event that triggers MarketDisplay_Load() function
+            InitializedForms[4].Enabled = true;
+
             marketCheck = true;
+
+            #region Garlicky Example
+
+            Debug.WriteLine(marketList.Count);
+            Debug.WriteLine(productList.Count);
+
+            //INFO
+            marketList[0].pb_product_icon.BackgroundImage = productList[0].icon;
+            marketList[0].lbl_product_name.Text = productList[0].name;
+
+            //SELL
+            marketList[0].lbl_sell_price.Text = (productList[0].onMarket) ? productList[0].sellingPrice.ToString("F2") : productList[0].marketCost.ToString("f2");
+            marketList[0].btn_no_mark.Visible = !productList[0].onMarket;
+            marketList[0].btn_yes_mark.Visible = productList[0].onMarket;
+
+            //TRENDS
+            if (productList[0].sDiff > 0)
+            {
+                marketList[0].pb_supply_fluc.BackgroundImage = Resources.Arrow_Up_Green;
+            }
+            else if (productList[0].sDiff == 0)
+            {
+                marketList[0].pb_supply_fluc.BackgroundImage = Resources.Arrow_Flat_Yellow;
+            }
+            else
+            {
+                marketList[0].pb_supply_fluc.BackgroundImage = Resources.Arrow_Down_Red;
+            }
+
+            if (productList[0].dDiff > 0)
+            {
+                marketList[0].pb_demand_fluc.BackgroundImage = Resources.Arrow_Up_Green;
+            }
+            else if (productList[0].dDiff == 0)
+            {
+                marketList[0].pb_demand_fluc.BackgroundImage = Resources.Arrow_Flat_Yellow;
+            }
+            else
+            {
+                marketList[0].pb_demand_fluc.BackgroundImage = Resources.Arrow_Down_Red;
+            }
+
+            marketList[0].txt_supply_value.Text = ((float)productList[0].sDiff / productList[0].oldSupply).ToString("F1");
+            marketList[0].txt_demand_value.Text = ((float)productList[0].dDiff / productList[0].oldDemand).ToString("F1");
+
+            marketList[0].txt_market_value.Text = productList[0].marketRating.ToString();
+            
+            switch (productList[0].marketRating)
+            {
+                case int n when (n >= 1700):
+                    marketList[0].pb_market_rating.BackgroundImage = Resources._5of5Bar;
+                    break;
+                case int n when (n >= 1400):
+                    marketList[0].pb_market_rating.BackgroundImage = Resources._4of5Bar;
+                    break;
+                case int n when (n >= 1100):
+                    marketList[0].pb_market_rating.BackgroundImage = Resources._3of5Bar;
+                    break;
+                case int n when (n >= 800):
+                    marketList[0].pb_market_rating.BackgroundImage = Resources._2of5Bar;
+                    break;
+                case int n when (n >= 500):
+                    marketList[0].pb_market_rating.BackgroundImage = Resources._1of5Bar;
+                    break;
+                default:
+                    marketList[0].pb_market_rating.BackgroundImage = Resources._0of5Bar;
+                    break;
+            }
+
+            //BUY
+            marketList[0].txt_prod_amount.Text = "0";
+            marketList[0].txt_prod_price.Text = productList[0].marketCost.ToString("F2");
+
+            #endregion
 
             //loop through 20 products - each individual product line 4 sections update (info, sell, trends, buy)
             for (int i = 0; i < productList.Count; i++)
             {
                 //INFO: *static*
-                //fetch product icon and update object
+                //fetch product icon and update object 
                 //fetch product name and update object
 
                 //SELL: if statement; product on-market? if so, display user's selling price; if not, default 
@@ -204,34 +298,31 @@ namespace FieldsOfFortune
                     //display price
                     //update sign to cross
                 }
-                
+
                 //TRENDS: *6 elements total* update both arrows (based on change from previous day; requires mathematical calculations to determine % of change) and rating bar
-                
+
                 //supply arrow... fetch sDiff, update
                 //demand arow... fetch dDiff, update
 
                 //float sChange = (divide sDiff by oldSupply); display as percentage
                 //float dChange = (divide dDiff by oldDemand); display as percentage
 
-                //fetch marketRating; display and update bar level object
                 //display marketRating
+                //fetch marketRating; display and update bar level object
 
                 //BUY: default sets amount to 0; product purchase price fluctuates based on market rating
                 //fetch marketCost and update object
                 //amount = 0
             }
-
-            InitializedForms[4].Show();
-            InitializedForms[4].Enabled = true;
         }
 
         public void CloseMarketDisplay()
         {
             InitializedForms[4].Hide();
             InitializedForms[4].Enabled = false;
+
+            marketCheck = false;
         }
-
-
 
         public void AddForm(Form form)
         {
@@ -252,7 +343,7 @@ namespace FieldsOfFortune
         }
 
         public void SaveGameCheck () {
-            Debug.Write("Test");
+            //Debug.Write("Test");
         }
 
         public void AddField (Field f)
@@ -263,6 +354,11 @@ namespace FieldsOfFortune
         public void AddStorage(Storage s)
         {
             storageList.Add(s);
+        }
+
+        public void AddMarketRow(MarketRow mr)
+        {
+            marketList.Add(mr);
         }
 
         public void SetReference(Form f, int id)
@@ -285,7 +381,12 @@ namespace FieldsOfFortune
 
             else if (id == 3)
             {
-                PlantDisplay = f;
+                plantDisplay = f;
+            }
+
+            else if (id == 4)
+            {
+                marketDisplay = f;
             }
         }
 

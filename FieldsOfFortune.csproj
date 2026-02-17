@@ -334,5 +334,32 @@
   <ItemGroup>
     <None Include="Resources\Cancel_Button1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0of5Bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3of5Bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5of5Bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow Down Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1of5Bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2of5Bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4of5Bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow Flat Yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow Up Green.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

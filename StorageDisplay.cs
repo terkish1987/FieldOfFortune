@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ namespace FieldsOfFortune
 {
     public partial class StorageDisplay : Form
     {
-        public static readonly StorageDisplay Instance = new StorageDisplay();
+        public static StorageDisplay Instance = new StorageDisplay();
 
         public StorageDisplay()
         {

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -23,6 +24,7 @@ namespace FieldsOfFortune
         public decimal marketMargin;
         public decimal marketCost;
         public bool onMarket;
+        public decimal sellingPrice;
         public Image icon;
 
         public int oldSupply;

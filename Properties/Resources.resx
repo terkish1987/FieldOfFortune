@@ -130,14 +130,11 @@
   <data name="Icon_Onion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon_Onion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Full Inventory Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Full Inventory Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Confirm_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Confirm_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ok_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ok_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon_Cauliflower" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon_Cauliflower.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Screenshot 2024-12-12 224404" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2024-12-12 224404.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon_Pineapple" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon_Pineapple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,8 +142,11 @@
   <data name="Form_Frame_GreenLine" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Form_Frame_GreenLine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icon_Plum" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon_Plum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="circle_frame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle_frame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Storage Building" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Storage Building.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cancel_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cancel_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,20 +166,20 @@
   <data name="Icon_Tomato" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon_Tomato.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="form_frame-green_line" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\form_frame-green_line.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Screenshot 2024-11-03 093806" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2024-11-03 093806.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Soil" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Soil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Screenshot 2024-11-03 093806" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot 2024-11-03 093806.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Full Inventory Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full Inventory Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon_Garlic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon_Garlic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Confirm_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Confirm_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Icon_Plum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_Plum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Offers Empty" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Offers Empty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,14 +190,17 @@
   <data name="Form_Frame" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Form_Frame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="calendar-day-cartoon-icon-business-with-simple-design" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\calendar-day-cartoon-icon-business-with-simple-design.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Icon_Cucumber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_Cucumber.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Screenshot 2024-11-21 175122" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2024-11-21 175122.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Tractor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tractor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Picture2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Picture2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Screenshot 2024-11-30 175151" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Screenshot 2024-11-30 175151.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -232,14 +235,14 @@
   <data name="Icon_Mango" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon_Mango.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icon_Cucumber" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icon_Cucumber.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Icon_Cauliflower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icon_Cauliflower.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Picture2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Picture2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Cancel_Button1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cancel_Button1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Form_Frame_GreenLine1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Form_Frame_GreenLine1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="form_frame-green_line" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\form_frame-green_line.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon_Papaya" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon_Papaya.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -247,8 +250,8 @@
   <data name="Circle_Arrows" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Circle_Arrows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Storage Building" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Storage Building.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Storage Building (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Storage Building (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fence_bottom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fence_bottom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -256,8 +259,8 @@
   <data name="Icon_Kiwi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon_Kiwi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Storage Building (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Storage Building (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ok_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ok_Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Market" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Market.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -268,8 +271,8 @@
   <data name="fence_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fence_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="circle_frame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\circle_frame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="calendar-day-cartoon-icon-business-with-simple-design" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar-day-cartoon-icon-business-with-simple-design.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Fence Texture" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fence Texture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -280,8 +283,8 @@
   <data name="Icon_Cherry" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon_Cherry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Screenshot 2024-12-12 224404" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot 2024-12-12 224404.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Form_Frame_GreenLine1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Form_Frame_GreenLine1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Field-Ready" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Field-Ready.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -292,7 +295,31 @@
   <data name="Icon_Ginger" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icon_Ginger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cancel_Button1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cancel_Button1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="0of5Bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0of5Bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3of5Bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3of5Bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5of5Bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5of5Bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrow Down Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrow Down Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1of5Bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1of5Bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2of5Bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2of5Bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4of5Bar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4of5Bar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrow Flat Yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrow Flat Yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arrow Up Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arrow Up Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

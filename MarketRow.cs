@@ -12,6 +12,13 @@ namespace FieldsOfFortune
 {
     public partial class MarketRow: UserControl
     {
+        public static MarketRow Instance = new MarketRow();
+
+        public int ID { get; set; }
+        public bool onMarket { get; set; }
+        public int amount { get; set; }
+        public decimal sellPrice { get; set; }
+
         public MarketRow()
         {
             InitializeComponent();

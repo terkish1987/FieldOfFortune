@@ -34,26 +34,26 @@
             this.btn_buy_sign = new System.Windows.Forms.Button();
             this.btn_cancel = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.marketRow1 = new FieldsOfFortune.MarketRow();
-            this.marketRow0 = new FieldsOfFortune.MarketRow();
-            this.marketRow3 = new FieldsOfFortune.MarketRow();
-            this.marketRow2 = new FieldsOfFortune.MarketRow();
-            this.marketRow4 = new FieldsOfFortune.MarketRow();
-            this.marketRow9 = new FieldsOfFortune.MarketRow();
-            this.marketRow8 = new FieldsOfFortune.MarketRow();
-            this.marketRow7 = new FieldsOfFortune.MarketRow();
-            this.marketRow6 = new FieldsOfFortune.MarketRow();
-            this.marketRow5 = new FieldsOfFortune.MarketRow();
-            this.marketRow19 = new FieldsOfFortune.MarketRow();
-            this.marketRow18 = new FieldsOfFortune.MarketRow();
-            this.marketRow17 = new FieldsOfFortune.MarketRow();
-            this.marketRow16 = new FieldsOfFortune.MarketRow();
-            this.marketRow15 = new FieldsOfFortune.MarketRow();
-            this.marketRow14 = new FieldsOfFortune.MarketRow();
-            this.marketRow13 = new FieldsOfFortune.MarketRow();
-            this.marketRow12 = new FieldsOfFortune.MarketRow();
-            this.marketRow11 = new FieldsOfFortune.MarketRow();
-            this.marketRow10 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_19 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_9 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_8 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_18 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_7 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_6 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_17 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_5 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_4 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_16 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_3 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_2 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_15 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_1 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_0 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_14 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_10 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_13 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_11 = new FieldsOfFortune.MarketRow();
+            this.MarketRow_12 = new FieldsOfFortune.MarketRow();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -129,175 +129,336 @@
             this.btn_cancel.Size = new System.Drawing.Size(55, 55);
             this.btn_cancel.TabIndex = 9;
             this.btn_cancel.UseVisualStyleBackColor = true;
+            this.btn_cancel.Click += new System.EventHandler(this.btn_cancel_Click);
             // 
             // panel1
             // 
             this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.marketRow19);
-            this.panel1.Controls.Add(this.marketRow9);
-            this.panel1.Controls.Add(this.marketRow8);
-            this.panel1.Controls.Add(this.marketRow18);
-            this.panel1.Controls.Add(this.marketRow7);
-            this.panel1.Controls.Add(this.marketRow6);
-            this.panel1.Controls.Add(this.marketRow17);
-            this.panel1.Controls.Add(this.marketRow5);
-            this.panel1.Controls.Add(this.marketRow4);
-            this.panel1.Controls.Add(this.marketRow16);
-            this.panel1.Controls.Add(this.marketRow3);
-            this.panel1.Controls.Add(this.marketRow2);
-            this.panel1.Controls.Add(this.marketRow15);
-            this.panel1.Controls.Add(this.marketRow1);
-            this.panel1.Controls.Add(this.marketRow0);
-            this.panel1.Controls.Add(this.marketRow14);
-            this.panel1.Controls.Add(this.marketRow10);
-            this.panel1.Controls.Add(this.marketRow13);
-            this.panel1.Controls.Add(this.marketRow11);
-            this.panel1.Controls.Add(this.marketRow12);
+            this.panel1.Controls.Add(this.MarketRow_19);
+            this.panel1.Controls.Add(this.MarketRow_9);
+            this.panel1.Controls.Add(this.MarketRow_8);
+            this.panel1.Controls.Add(this.MarketRow_18);
+            this.panel1.Controls.Add(this.MarketRow_7);
+            this.panel1.Controls.Add(this.MarketRow_6);
+            this.panel1.Controls.Add(this.MarketRow_17);
+            this.panel1.Controls.Add(this.MarketRow_5);
+            this.panel1.Controls.Add(this.MarketRow_4);
+            this.panel1.Controls.Add(this.MarketRow_16);
+            this.panel1.Controls.Add(this.MarketRow_3);
+            this.panel1.Controls.Add(this.MarketRow_2);
+            this.panel1.Controls.Add(this.MarketRow_15);
+            this.panel1.Controls.Add(this.MarketRow_1);
+            this.panel1.Controls.Add(this.MarketRow_0);
+            this.panel1.Controls.Add(this.MarketRow_14);
+            this.panel1.Controls.Add(this.MarketRow_10);
+            this.panel1.Controls.Add(this.MarketRow_13);
+            this.panel1.Controls.Add(this.MarketRow_11);
+            this.panel1.Controls.Add(this.MarketRow_12);
             this.panel1.Location = new System.Drawing.Point(121, 207);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(925, 441);
             this.panel1.TabIndex = 10;
             // 
-            // marketRow1
+            // MarketRow_19
             // 
-            this.marketRow1.Location = new System.Drawing.Point(0, 156);
-            this.marketRow1.Name = "marketRow1";
-            this.marketRow1.Size = new System.Drawing.Size(908, 164);
-            this.marketRow1.TabIndex = 1;
+            this.MarketRow_19.amount = 0;
+            this.MarketRow_19.ID = 0;
+            this.MarketRow_19.Location = new System.Drawing.Point(0, 2972);
+            this.MarketRow_19.Name = "MarketRow_19";
+            this.MarketRow_19.onMarket = false;
+            this.MarketRow_19.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_19.Size = new System.Drawing.Size(908, 164);
+            this.MarketRow_19.TabIndex = 19;
             // 
-            // marketRow0
+            // MarketRow_9
             // 
-            this.marketRow0.Location = new System.Drawing.Point(0, 0);
-            this.marketRow0.Name = "marketRow0";
-            this.marketRow0.Size = new System.Drawing.Size(908, 164);
-            this.marketRow0.TabIndex = 0;
+            this.MarketRow_9.amount = 0;
+            this.MarketRow_9.ID = 0;
+            this.MarketRow_9.Location = new System.Drawing.Point(0, 1408);
+            this.MarketRow_9.Name = "MarketRow_9";
+            this.MarketRow_9.onMarket = false;
+            this.MarketRow_9.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_9.Size = new System.Drawing.Size(908, 164);
+            this.MarketRow_9.TabIndex = 9;
             // 
-            // marketRow3
+            // MarketRow_8
             // 
-            this.marketRow3.Location = new System.Drawing.Point(0, 469);
-            this.marketRow3.Name = "marketRow3";
-            this.marketRow3.Size = new System.Drawing.Size(908, 164);
-            this.marketRow3.TabIndex = 3;
+            this.MarketRow_8.amount = 0;
+            this.MarketRow_8.ID = 0;
+            this.MarketRow_8.Location = new System.Drawing.Point(0, 1251);
+            this.MarketRow_8.Name = "MarketRow_8";
+            this.MarketRow_8.onMarket = false;
+            this.MarketRow_8.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_8.Size = new System.Drawing.Size(908, 164);
+            this.MarketRow_8.TabIndex = 8;
             // 
-            // marketRow2
+            // MarketRow_18
             // 
-            this.marketRow2.Location = new System.Drawing.Point(0, 313);
-            this.marketRow2.Name = "marketRow2";
-            this.marketRow2.Size = new System.Drawing.Size(908, 164);
-            this.marketRow2.TabIndex = 2;
+            this.MarketRow_18.amount = 0;
+            this.MarketRow_18.ID = 0;
+            this.MarketRow_18.Location = new System.Drawing.Point(0, 2815);
+            this.MarketRow_18.Name = "MarketRow_18";
+            this.MarketRow_18.onMarket = false;
+            this.MarketRow_18.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_18.Size = new System.Drawing.Size(908, 164);
+            this.MarketRow_18.TabIndex = 18;
             // 
-            // marketRow4
+            // MarketRow_7
             // 
-            this.marketRow4.Location = new System.Drawing.Point(0, 626);
-            this.marketRow4.Name = "marketRow4";
-            this.marketRow4.Size = new System.Drawing.Size(908, 164);
-            this.marketRow4.TabIndex = 4;
+            this.MarketRow_7.amount = 0;
+            this.MarketRow_7.ID = 0;
+            this.MarketRow_7.Location = new System.Drawing.Point(0, 1095);
+            this.MarketRow_7.Name = "MarketRow_7";
+            this.MarketRow_7.onMarket = false;
+            this.MarketRow_7.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_7.Size = new System.Drawing.Size(908, 164);
+            this.MarketRow_7.TabIndex = 7;
             // 
-            // marketRow9
+            // MarketRow_6
             // 
-            this.marketRow9.Location = new System.Drawing.Point(0, 1408);
-            this.marketRow9.Name = "marketRow9";
-            this.marketRow9.Size = new System.Drawing.Size(908, 164);
-            this.marketRow9.TabIndex = 9;
+            this.MarketRow_6.amount = 0;
+            this.MarketRow_6.ID = 0;
+            this.MarketRow_6.Location = new System.Drawing.Point(0, 938);
+            this.MarketRow_6.Name = "MarketRow_6";
+            this.MarketRow_6.onMarket = false;
+            this.MarketRow_6.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_6.Size = new System.Drawing.Size(908, 167);
+            this.MarketRow_6.TabIndex = 6;
             // 
-            // marketRow8
+            // MarketRow_17
             // 
-            this.marketRow8.Location = new System.Drawing.Point(0, 1251);
-            this.marketRow8.Name = "marketRow8";
-            this.marketRow8.Size = new System.Drawing.Size(908, 164);
-            this.marketRow8.TabIndex = 8;
+            this.MarketRow_17.amount = 0;
+            this.MarketRow_17.ID = 0;
+            this.MarketRow_17.Location = new System.Drawing.Point(0, 2659);
+            this.MarketRow_17.Name = "MarketRow_17";
+            this.MarketRow_17.onMarket = false;
+            this.MarketRow_17.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_17.Size = new System.Drawing.Size(908, 164);
+            this.MarketRow_17.TabIndex = 17;
             // 
-            // marketRow7
+            // MarketRow_5
             // 
-            this.marketRow7.Location = new System.Drawing.Point(0, 1095);
-            this.marketRow7.Name = "marketRow7";
-            this.marketRow7.Size = new System.Drawing.Size(908, 164);
-            this.marketRow7.TabIndex = 7;
+            this.MarketRow_5.amount = 0;
+            this.MarketRow_5.ID = 0;
+            this.MarketRow_5.Location = new System.Drawing.Point(0, 782);
+            this.MarketRow_5.Name = "MarketRow_5";
+            this.MarketRow_5.onMarket = false;
+            this.MarketRow_5.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_5.Size = new System.Drawing.Size(908, 164);
+            this.MarketRow_5.TabIndex = 5;
             // 
-            // marketRow6
+            // MarketRow_4
             // 
-            this.marketRow6.Location = new System.Drawing.Point(0, 938);
-            this.marketRow6.Name = "marketRow6";
-            this.marketRow6.Size = new System.Drawing.Size(908, 167);
-            this.marketRow6.TabIndex = 6;
+            this.MarketRow_4.amount = 0;
+            this.MarketRow_4.ID = 0;
+            this.MarketRow_4.Location = new System.Drawing.Point(0, 626);
+            this.MarketRow_4.Name = "MarketRow_4";
+            this.MarketRow_4.onMarket = false;
+            this.MarketRow_4.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_4.Size = new System.Drawing.Size(908, 164);
+            this.MarketRow_4.TabIndex = 4;
             // 
-            // marketRow5
+            // MarketRow_16
             // 
-            this.marketRow5.Location = new System.Drawing.Point(0, 782);
-            this.marketRow5.Name = "marketRow5";
-            this.marketRow5.Size = new System.Drawing.Size(908, 164);
-            this.marketRow5.TabIndex = 5;
+            this.MarketRow_16.amount = 0;
+            this.MarketRow_16.ID = 0;
+            this.MarketRow_16.Location = new System.Drawing.Point(0, 2502);
+            this.MarketRow_16.Name = "MarketRow_16";
+            this.MarketRow_16.onMarket = false;
+            this.MarketRow_16.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_16.Size = new System.Drawing.Size(908, 164);
+            this.MarketRow_16.TabIndex = 16;
             // 
-            // marketRow19
+            // MarketRow_3
             // 
-            this.marketRow19.Location = new System.Drawing.Point(0, 2972);
-            this.marketRow19.Name = "marketRow19";
-            this.marketRow19.Size = new System.Drawing.Size(908, 164);
-            this.marketRow19.TabIndex = 19;
+            this.MarketRow_3.amount = 0;
+            this.MarketRow_3.ID = 0;
+            this.MarketRow_3.Location = new System.Drawing.Point(0, 469);
+            this.MarketRow_3.Name = "MarketRow_3";
+            this.MarketRow_3.onMarket = false;
+            this.MarketRow_3.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_3.Size = new System.Drawing.Size(908, 164);
+            this.MarketRow_3.TabIndex = 3;
             // 
-            // marketRow18
+            // MarketRow_2
             // 
-            this.marketRow18.Location = new System.Drawing.Point(0, 2815);
-            this.marketRow18.Name = "marketRow18";
-            this.marketRow18.Size = new System.Drawing.Size(908, 164);
-            this.marketRow18.TabIndex = 18;
+            this.MarketRow_2.amount = 0;
+            this.MarketRow_2.ID = 0;
+            this.MarketRow_2.Location = new System.Drawing.Point(0, 313);
+            this.MarketRow_2.Name = "MarketRow_2";
+            this.MarketRow_2.onMarket = false;
+            this.MarketRow_2.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_2.Size = new System.Drawing.Size(908, 164);
+            this.MarketRow_2.TabIndex = 2;
             // 
-            // marketRow17
+            // MarketRow_15
             // 
-            this.marketRow17.Location = new System.Drawing.Point(0, 2659);
-            this.marketRow17.Name = "marketRow17";
-            this.marketRow17.Size = new System.Drawing.Size(908, 164);
-            this.marketRow17.TabIndex = 17;
+            this.MarketRow_15.amount = 0;
+            this.MarketRow_15.ID = 0;
+            this.MarketRow_15.Location = new System.Drawing.Point(0, 2346);
+            this.MarketRow_15.Name = "MarketRow_15";
+            this.MarketRow_15.onMarket = false;
+            this.MarketRow_15.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_15.Size = new System.Drawing.Size(908, 164);
+            this.MarketRow_15.TabIndex = 15;
             // 
-            // marketRow16
+            // MarketRow_1
             // 
-            this.marketRow16.Location = new System.Drawing.Point(0, 2502);
-            this.marketRow16.Name = "marketRow16";
-            this.marketRow16.Size = new System.Drawing.Size(908, 164);
-            this.marketRow16.TabIndex = 16;
+            this.MarketRow_1.amount = 0;
+            this.MarketRow_1.ID = 0;
+            this.MarketRow_1.Location = new System.Drawing.Point(0, 156);
+            this.MarketRow_1.Name = "MarketRow_1";
+            this.MarketRow_1.onMarket = false;
+            this.MarketRow_1.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_1.Size = new System.Drawing.Size(908, 164);
+            this.MarketRow_1.TabIndex = 1;
             // 
-            // marketRow15
+            // MarketRow_0
             // 
-            this.marketRow15.Location = new System.Drawing.Point(0, 2346);
-            this.marketRow15.Name = "marketRow15";
-            this.marketRow15.Size = new System.Drawing.Size(908, 164);
-            this.marketRow15.TabIndex = 15;
+            this.MarketRow_0.amount = 0;
+            this.MarketRow_0.ID = 0;
+            this.MarketRow_0.Location = new System.Drawing.Point(0, 0);
+            this.MarketRow_0.Name = "MarketRow_0";
+            this.MarketRow_0.onMarket = false;
+            this.MarketRow_0.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_0.Size = new System.Drawing.Size(908, 164);
+            this.MarketRow_0.TabIndex = 0;
             // 
-            // marketRow14
+            // MarketRow_14
             // 
-            this.marketRow14.Location = new System.Drawing.Point(0, 2190);
-            this.marketRow14.Name = "marketRow14";
-            this.marketRow14.Size = new System.Drawing.Size(908, 164);
-            this.marketRow14.TabIndex = 14;
+            this.MarketRow_14.amount = 0;
+            this.MarketRow_14.ID = 0;
+            this.MarketRow_14.Location = new System.Drawing.Point(0, 2190);
+            this.MarketRow_14.Name = "MarketRow_14";
+            this.MarketRow_14.onMarket = false;
+            this.MarketRow_14.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_14.Size = new System.Drawing.Size(908, 164);
+            this.MarketRow_14.TabIndex = 14;
             // 
-            // marketRow13
+            // MarketRow_10
             // 
-            this.marketRow13.Location = new System.Drawing.Point(0, 2033);
-            this.marketRow13.Name = "marketRow13";
-            this.marketRow13.Size = new System.Drawing.Size(908, 164);
-            this.marketRow13.TabIndex = 13;
+            this.MarketRow_10.amount = 0;
+            this.MarketRow_10.ID = 0;
+            this.MarketRow_10.Location = new System.Drawing.Point(0, 1564);
+            this.MarketRow_10.Name = "MarketRow_10";
+            this.MarketRow_10.onMarket = false;
+            this.MarketRow_10.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_10.Size = new System.Drawing.Size(908, 164);
+            this.MarketRow_10.TabIndex = 10;
             // 
-            // marketRow12
+            // MarketRow_13
             // 
-            this.marketRow12.Location = new System.Drawing.Point(0, 1877);
-            this.marketRow12.Name = "marketRow12";
-            this.marketRow12.Size = new System.Drawing.Size(908, 164);
-            this.marketRow12.TabIndex = 12;
+            this.MarketRow_13.amount = 0;
+            this.MarketRow_13.ID = 0;
+            this.MarketRow_13.Location = new System.Drawing.Point(0, 2033);
+            this.MarketRow_13.Name = "MarketRow_13";
+            this.MarketRow_13.onMarket = false;
+            this.MarketRow_13.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_13.Size = new System.Drawing.Size(908, 164);
+            this.MarketRow_13.TabIndex = 13;
             // 
-            // marketRow11
+            // MarketRow_11
             // 
-            this.marketRow11.Location = new System.Drawing.Point(0, 1720);
-            this.marketRow11.Name = "marketRow11";
-            this.marketRow11.Size = new System.Drawing.Size(908, 164);
-            this.marketRow11.TabIndex = 11;
+            this.MarketRow_11.amount = 0;
+            this.MarketRow_11.ID = 0;
+            this.MarketRow_11.Location = new System.Drawing.Point(0, 1720);
+            this.MarketRow_11.Name = "MarketRow_11";
+            this.MarketRow_11.onMarket = false;
+            this.MarketRow_11.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_11.Size = new System.Drawing.Size(908, 164);
+            this.MarketRow_11.TabIndex = 11;
             // 
-            // marketRow10
+            // MarketRow_12
             // 
-            this.marketRow10.Location = new System.Drawing.Point(0, 1564);
-            this.marketRow10.Name = "marketRow10";
-            this.marketRow10.Size = new System.Drawing.Size(908, 164);
-            this.marketRow10.TabIndex = 10;
+            this.MarketRow_12.amount = 0;
+            this.MarketRow_12.ID = 0;
+            this.MarketRow_12.Location = new System.Drawing.Point(0, 1877);
+            this.MarketRow_12.Name = "MarketRow_12";
+            this.MarketRow_12.onMarket = false;
+            this.MarketRow_12.sellPrice = new decimal(new int[] {
+            0,
+            0,
+            0,
+            0});
+            this.MarketRow_12.Size = new System.Drawing.Size(908, 164);
+            this.MarketRow_12.TabIndex = 12;
             // 
             // MarketDisplay
             // 
@@ -315,6 +476,7 @@
             this.DoubleBuffered = true;
             this.Name = "MarketDisplay";
             this.Text = "MarketDisplay";
+            this.Load += new System.EventHandler(this.MarketDisplay_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -328,25 +490,25 @@
         private System.Windows.Forms.Button btn_buy_sign;
         public System.Windows.Forms.Button btn_cancel;
         private System.Windows.Forms.Panel panel1;
-        private MarketRow marketRow0;
-        private MarketRow marketRow1;
-        private MarketRow marketRow3;
-        private MarketRow marketRow2;
-        private MarketRow marketRow4;
-        private MarketRow marketRow19;
-        private MarketRow marketRow9;
-        private MarketRow marketRow8;
-        private MarketRow marketRow18;
-        private MarketRow marketRow7;
-        private MarketRow marketRow6;
-        private MarketRow marketRow17;
-        private MarketRow marketRow5;
-        private MarketRow marketRow16;
-        private MarketRow marketRow15;
-        private MarketRow marketRow14;
-        private MarketRow marketRow10;
-        private MarketRow marketRow13;
-        private MarketRow marketRow11;
-        private MarketRow marketRow12;
+        public MarketRow MarketRow_0;
+        public MarketRow MarketRow_1;
+        public MarketRow MarketRow_3;
+        public MarketRow MarketRow_2;
+        public MarketRow MarketRow_4;
+        public MarketRow MarketRow_9;
+        public MarketRow MarketRow_8;
+        public MarketRow MarketRow_7;
+        public MarketRow MarketRow_6;
+        public MarketRow MarketRow_5;
+        public MarketRow MarketRow_10;
+        public MarketRow MarketRow_11;
+        public MarketRow MarketRow_12;
+        public MarketRow MarketRow_19;
+        public MarketRow MarketRow_18;
+        public MarketRow MarketRow_17;
+        public MarketRow MarketRow_16;
+        public MarketRow MarketRow_15;
+        public MarketRow MarketRow_14;
+        public MarketRow MarketRow_13;
     }
 }

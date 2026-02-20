@@ -30,19 +30,6 @@
         {
             this.txt_money = new System.Windows.Forms.TextBox();
             this.txt_day = new System.Windows.Forms.TextBox();
-            this.btn_fence_top = new System.Windows.Forms.Button();
-            this.btn_offers_empty_icon = new System.Windows.Forms.Button();
-            this.btn_fence_bottom = new System.Windows.Forms.Button();
-            this.btn_fence_right = new System.Windows.Forms.Button();
-            this.btn_fence_left = new System.Windows.Forms.Button();
-            this.btn_calendar_icon = new System.Windows.Forms.Button();
-            this.btn_coin_icon = new System.Windows.Forms.Button();
-            this.btn_UI = new System.Windows.Forms.Button();
-            this.btn_next_day_icon = new System.Windows.Forms.Button();
-            this.btn_next_day = new System.Windows.Forms.Button();
-            this.btn_market = new System.Windows.Forms.Button();
-            this.btn_storage = new System.Windows.Forms.Button();
-            this.background_texture = new System.Windows.Forms.PictureBox();
             this.FieldGroup_63 = new FieldsOfFortune.FieldGroup();
             this.FieldGroup_62 = new FieldsOfFortune.FieldGroup();
             this.FieldGroup_61 = new FieldsOfFortune.FieldGroup();
@@ -107,6 +94,20 @@
             this.FieldGroup_2 = new FieldsOfFortune.FieldGroup();
             this.FieldGroup_1 = new FieldsOfFortune.FieldGroup();
             this.FieldGroup_0 = new FieldsOfFortune.FieldGroup();
+            this.red_circle = new System.Windows.Forms.Button();
+            this.btn_fence_top = new System.Windows.Forms.Button();
+            this.btn_offers_empty_icon = new System.Windows.Forms.Button();
+            this.btn_fence_bottom = new System.Windows.Forms.Button();
+            this.btn_fence_right = new System.Windows.Forms.Button();
+            this.btn_fence_left = new System.Windows.Forms.Button();
+            this.btn_calendar_icon = new System.Windows.Forms.Button();
+            this.btn_coin_icon = new System.Windows.Forms.Button();
+            this.btn_UI = new System.Windows.Forms.Button();
+            this.btn_next_day_icon = new System.Windows.Forms.Button();
+            this.btn_next_day = new System.Windows.Forms.Button();
+            this.btn_market = new System.Windows.Forms.Button();
+            this.btn_storage = new System.Windows.Forms.Button();
+            this.background_texture = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.background_texture)).BeginInit();
             this.SuspendLayout();
             // 
@@ -130,194 +131,6 @@
             this.txt_day.Size = new System.Drawing.Size(86, 37);
             this.txt_day.TabIndex = 9;
             this.txt_day.Text = "Day 1";
-            // 
-            // btn_fence_top
-            // 
-            this.btn_fence_top.BackgroundImage = global::FieldsOfFortune.Properties.Resources.fence_top;
-            this.btn_fence_top.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_fence_top.FlatAppearance.BorderSize = 0;
-            this.btn_fence_top.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_fence_top.Location = new System.Drawing.Point(47, 147);
-            this.btn_fence_top.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_fence_top.Name = "btn_fence_top";
-            this.btn_fence_top.Size = new System.Drawing.Size(480, 13);
-            this.btn_fence_top.TabIndex = 31;
-            this.btn_fence_top.UseVisualStyleBackColor = true;
-            // 
-            // btn_offers_empty_icon
-            // 
-            this.btn_offers_empty_icon.BackColor = System.Drawing.Color.Transparent;
-            this.btn_offers_empty_icon.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Offers_Empty;
-            this.btn_offers_empty_icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_offers_empty_icon.FlatAppearance.BorderSize = 0;
-            this.btn_offers_empty_icon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_offers_empty_icon.Location = new System.Drawing.Point(405, -9);
-            this.btn_offers_empty_icon.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_offers_empty_icon.Name = "btn_offers_empty_icon";
-            this.btn_offers_empty_icon.Size = new System.Drawing.Size(56, 61);
-            this.btn_offers_empty_icon.TabIndex = 20;
-            this.btn_offers_empty_icon.UseVisualStyleBackColor = false;
-            // 
-            // btn_fence_bottom
-            // 
-            this.btn_fence_bottom.BackgroundImage = global::FieldsOfFortune.Properties.Resources.fence_bottom;
-            this.btn_fence_bottom.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_fence_bottom.FlatAppearance.BorderSize = 0;
-            this.btn_fence_bottom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_fence_bottom.Location = new System.Drawing.Point(47, 680);
-            this.btn_fence_bottom.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_fence_bottom.Name = "btn_fence_bottom";
-            this.btn_fence_bottom.Size = new System.Drawing.Size(480, 13);
-            this.btn_fence_bottom.TabIndex = 13;
-            this.btn_fence_bottom.UseVisualStyleBackColor = true;
-            // 
-            // btn_fence_right
-            // 
-            this.btn_fence_right.BackgroundImage = global::FieldsOfFortune.Properties.Resources.fence_right;
-            this.btn_fence_right.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_fence_right.FlatAppearance.BorderSize = 0;
-            this.btn_fence_right.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_fence_right.Location = new System.Drawing.Point(527, 160);
-            this.btn_fence_right.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_fence_right.Name = "btn_fence_right";
-            this.btn_fence_right.Size = new System.Drawing.Size(12, 520);
-            this.btn_fence_right.TabIndex = 12;
-            this.btn_fence_right.UseVisualStyleBackColor = true;
-            // 
-            // btn_fence_left
-            // 
-            this.btn_fence_left.BackgroundImage = global::FieldsOfFortune.Properties.Resources.fence_left;
-            this.btn_fence_left.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_fence_left.FlatAppearance.BorderSize = 0;
-            this.btn_fence_left.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_fence_left.Location = new System.Drawing.Point(35, 160);
-            this.btn_fence_left.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_fence_left.Name = "btn_fence_left";
-            this.btn_fence_left.Size = new System.Drawing.Size(12, 520);
-            this.btn_fence_left.TabIndex = 10;
-            this.btn_fence_left.UseVisualStyleBackColor = true;
-            // 
-            // btn_calendar_icon
-            // 
-            this.btn_calendar_icon.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Screenshot_2024_11_03_093806;
-            this.btn_calendar_icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_calendar_icon.FlatAppearance.BorderSize = 0;
-            this.btn_calendar_icon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_calendar_icon.Location = new System.Drawing.Point(176, 6);
-            this.btn_calendar_icon.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_calendar_icon.Name = "btn_calendar_icon";
-            this.btn_calendar_icon.Size = new System.Drawing.Size(34, 31);
-            this.btn_calendar_icon.TabIndex = 7;
-            this.btn_calendar_icon.UseVisualStyleBackColor = true;
-            // 
-            // btn_coin_icon
-            // 
-            this.btn_coin_icon.BackColor = System.Drawing.Color.Transparent;
-            this.btn_coin_icon.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Picture2;
-            this.btn_coin_icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_coin_icon.FlatAppearance.BorderSize = 0;
-            this.btn_coin_icon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_coin_icon.Location = new System.Drawing.Point(11, 4);
-            this.btn_coin_icon.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_coin_icon.Name = "btn_coin_icon";
-            this.btn_coin_icon.Size = new System.Drawing.Size(32, 37);
-            this.btn_coin_icon.TabIndex = 6;
-            this.btn_coin_icon.UseVisualStyleBackColor = false;
-            // 
-            // btn_UI
-            // 
-            this.btn_UI.BackgroundImage = global::FieldsOfFortune.Properties.Resources.UI_Background;
-            this.btn_UI.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_UI.FlatAppearance.BorderSize = 0;
-            this.btn_UI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_UI.Font = new System.Drawing.Font("Berlin Sans FB", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_UI.ForeColor = System.Drawing.Color.White;
-            this.btn_UI.Location = new System.Drawing.Point(0, 0);
-            this.btn_UI.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_UI.Name = "btn_UI";
-            this.btn_UI.Padding = new System.Windows.Forms.Padding(38, 0, 0, 0);
-            this.btn_UI.Size = new System.Drawing.Size(400, 48);
-            this.btn_UI.TabIndex = 5;
-            this.btn_UI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_UI.UseVisualStyleBackColor = true;
-            // 
-            // btn_next_day_icon
-            // 
-            this.btn_next_day_icon.BackColor = System.Drawing.Color.Transparent;
-            this.btn_next_day_icon.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Circle_Arrows;
-            this.btn_next_day_icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_next_day_icon.FlatAppearance.BorderSize = 0;
-            this.btn_next_day_icon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_next_day_icon.Location = new System.Drawing.Point(944, 30);
-            this.btn_next_day_icon.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_next_day_icon.Name = "btn_next_day_icon";
-            this.btn_next_day_icon.Size = new System.Drawing.Size(47, 57);
-            this.btn_next_day_icon.TabIndex = 4;
-            this.btn_next_day_icon.UseVisualStyleBackColor = false;
-            // 
-            // btn_next_day
-            // 
-            this.btn_next_day.BackColor = System.Drawing.Color.Transparent;
-            this.btn_next_day.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Button_Frame2;
-            this.btn_next_day.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_next_day.FlatAppearance.BorderSize = 0;
-            this.btn_next_day.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_next_day.Font = new System.Drawing.Font("Berlin Sans FB", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_next_day.ForeColor = System.Drawing.Color.White;
-            this.btn_next_day.Location = new System.Drawing.Point(928, 20);
-            this.btn_next_day.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_next_day.Name = "btn_next_day";
-            this.btn_next_day.Padding = new System.Windows.Forms.Padding(1, 1, 8, 1);
-            this.btn_next_day.Size = new System.Drawing.Size(240, 82);
-            this.btn_next_day.TabIndex = 3;
-            this.btn_next_day.Text = "Next Day";
-            this.btn_next_day.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_next_day.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btn_next_day.UseVisualStyleBackColor = false;
-            // 
-            // btn_market
-            // 
-            this.btn_market.BackColor = System.Drawing.Color.Transparent;
-            this.btn_market.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Market;
-            this.btn_market.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_market.FlatAppearance.BorderSize = 0;
-            this.btn_market.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_market.Location = new System.Drawing.Point(890, 541);
-            this.btn_market.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_market.Name = "btn_market";
-            this.btn_market.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btn_market.Size = new System.Drawing.Size(252, 127);
-            this.btn_market.TabIndex = 2;
-            this.btn_market.UseVisualStyleBackColor = false;
-            this.btn_market.Click += new System.EventHandler(this.btn_market_Click);
-            // 
-            // btn_storage
-            // 
-            this.btn_storage.BackColor = System.Drawing.Color.Transparent;
-            this.btn_storage.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Storage_Building__2_;
-            this.btn_storage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_storage.FlatAppearance.BorderSize = 0;
-            this.btn_storage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_storage.Location = new System.Drawing.Point(578, 82);
-            this.btn_storage.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_storage.Name = "btn_storage";
-            this.btn_storage.Size = new System.Drawing.Size(287, 407);
-            this.btn_storage.TabIndex = 1;
-            this.btn_storage.UseVisualStyleBackColor = false;
-            this.btn_storage.Click += new System.EventHandler(this.btn_storage_Click);
-            // 
-            // background_texture
-            // 
-            this.background_texture.BackColor = System.Drawing.Color.Transparent;
-            this.background_texture.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Background_Grass;
-            this.background_texture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.background_texture.Location = new System.Drawing.Point(0, -2);
-            this.background_texture.Margin = new System.Windows.Forms.Padding(2);
-            this.background_texture.Name = "background_texture";
-            this.background_texture.Size = new System.Drawing.Size(1200, 731);
-            this.background_texture.TabIndex = 0;
-            this.background_texture.TabStop = false;
-            this.background_texture.UseWaitCursor = true;
             // 
             // FieldGroup_63
             // 
@@ -1024,11 +837,216 @@
             this.FieldGroup_0.Size = new System.Drawing.Size(60, 65);
             this.FieldGroup_0.TabIndex = 30;
             // 
+            // red_circle
+            // 
+            this.red_circle.BackgroundImage = global::FieldsOfFortune.Properties.Resources.red_circle;
+            this.red_circle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.red_circle.FlatAppearance.BorderSize = 0;
+            this.red_circle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.red_circle.Font = new System.Drawing.Font("Berlin Sans FB Demi", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.red_circle.ForeColor = System.Drawing.Color.White;
+            this.red_circle.Location = new System.Drawing.Point(435, -2);
+            this.red_circle.Margin = new System.Windows.Forms.Padding(0);
+            this.red_circle.Name = "red_circle";
+            this.red_circle.Size = new System.Drawing.Size(27, 27);
+            this.red_circle.TabIndex = 95;
+            this.red_circle.Text = "10";
+            this.red_circle.UseVisualStyleBackColor = true;
+            // 
+            // btn_fence_top
+            // 
+            this.btn_fence_top.BackgroundImage = global::FieldsOfFortune.Properties.Resources.fence_top;
+            this.btn_fence_top.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_fence_top.FlatAppearance.BorderSize = 0;
+            this.btn_fence_top.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_fence_top.Location = new System.Drawing.Point(47, 147);
+            this.btn_fence_top.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_fence_top.Name = "btn_fence_top";
+            this.btn_fence_top.Size = new System.Drawing.Size(480, 13);
+            this.btn_fence_top.TabIndex = 31;
+            this.btn_fence_top.UseVisualStyleBackColor = true;
+            // 
+            // btn_offers_empty_icon
+            // 
+            this.btn_offers_empty_icon.BackColor = System.Drawing.Color.Transparent;
+            this.btn_offers_empty_icon.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Offers_Empty;
+            this.btn_offers_empty_icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_offers_empty_icon.FlatAppearance.BorderSize = 0;
+            this.btn_offers_empty_icon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_offers_empty_icon.Location = new System.Drawing.Point(405, -9);
+            this.btn_offers_empty_icon.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_offers_empty_icon.Name = "btn_offers_empty_icon";
+            this.btn_offers_empty_icon.Size = new System.Drawing.Size(56, 61);
+            this.btn_offers_empty_icon.TabIndex = 20;
+            this.btn_offers_empty_icon.UseVisualStyleBackColor = false;
+            // 
+            // btn_fence_bottom
+            // 
+            this.btn_fence_bottom.BackgroundImage = global::FieldsOfFortune.Properties.Resources.fence_bottom;
+            this.btn_fence_bottom.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_fence_bottom.FlatAppearance.BorderSize = 0;
+            this.btn_fence_bottom.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_fence_bottom.Location = new System.Drawing.Point(47, 680);
+            this.btn_fence_bottom.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_fence_bottom.Name = "btn_fence_bottom";
+            this.btn_fence_bottom.Size = new System.Drawing.Size(480, 13);
+            this.btn_fence_bottom.TabIndex = 13;
+            this.btn_fence_bottom.UseVisualStyleBackColor = true;
+            // 
+            // btn_fence_right
+            // 
+            this.btn_fence_right.BackgroundImage = global::FieldsOfFortune.Properties.Resources.fence_right;
+            this.btn_fence_right.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_fence_right.FlatAppearance.BorderSize = 0;
+            this.btn_fence_right.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_fence_right.Location = new System.Drawing.Point(527, 160);
+            this.btn_fence_right.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_fence_right.Name = "btn_fence_right";
+            this.btn_fence_right.Size = new System.Drawing.Size(12, 520);
+            this.btn_fence_right.TabIndex = 12;
+            this.btn_fence_right.UseVisualStyleBackColor = true;
+            // 
+            // btn_fence_left
+            // 
+            this.btn_fence_left.BackgroundImage = global::FieldsOfFortune.Properties.Resources.fence_left;
+            this.btn_fence_left.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_fence_left.FlatAppearance.BorderSize = 0;
+            this.btn_fence_left.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_fence_left.Location = new System.Drawing.Point(35, 160);
+            this.btn_fence_left.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_fence_left.Name = "btn_fence_left";
+            this.btn_fence_left.Size = new System.Drawing.Size(12, 520);
+            this.btn_fence_left.TabIndex = 10;
+            this.btn_fence_left.UseVisualStyleBackColor = true;
+            // 
+            // btn_calendar_icon
+            // 
+            this.btn_calendar_icon.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Screenshot_2024_11_03_093806;
+            this.btn_calendar_icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_calendar_icon.FlatAppearance.BorderSize = 0;
+            this.btn_calendar_icon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_calendar_icon.Location = new System.Drawing.Point(176, 6);
+            this.btn_calendar_icon.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_calendar_icon.Name = "btn_calendar_icon";
+            this.btn_calendar_icon.Size = new System.Drawing.Size(34, 31);
+            this.btn_calendar_icon.TabIndex = 7;
+            this.btn_calendar_icon.UseVisualStyleBackColor = true;
+            // 
+            // btn_coin_icon
+            // 
+            this.btn_coin_icon.BackColor = System.Drawing.Color.Transparent;
+            this.btn_coin_icon.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Picture2;
+            this.btn_coin_icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_coin_icon.FlatAppearance.BorderSize = 0;
+            this.btn_coin_icon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_coin_icon.Location = new System.Drawing.Point(11, 4);
+            this.btn_coin_icon.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_coin_icon.Name = "btn_coin_icon";
+            this.btn_coin_icon.Size = new System.Drawing.Size(32, 37);
+            this.btn_coin_icon.TabIndex = 6;
+            this.btn_coin_icon.UseVisualStyleBackColor = false;
+            // 
+            // btn_UI
+            // 
+            this.btn_UI.BackgroundImage = global::FieldsOfFortune.Properties.Resources.UI_Background;
+            this.btn_UI.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_UI.FlatAppearance.BorderSize = 0;
+            this.btn_UI.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_UI.Font = new System.Drawing.Font("Berlin Sans FB", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_UI.ForeColor = System.Drawing.Color.White;
+            this.btn_UI.Location = new System.Drawing.Point(0, 0);
+            this.btn_UI.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_UI.Name = "btn_UI";
+            this.btn_UI.Padding = new System.Windows.Forms.Padding(38, 0, 0, 0);
+            this.btn_UI.Size = new System.Drawing.Size(400, 48);
+            this.btn_UI.TabIndex = 5;
+            this.btn_UI.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_UI.UseVisualStyleBackColor = true;
+            // 
+            // btn_next_day_icon
+            // 
+            this.btn_next_day_icon.BackColor = System.Drawing.Color.Transparent;
+            this.btn_next_day_icon.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Circle_Arrows;
+            this.btn_next_day_icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_next_day_icon.FlatAppearance.BorderSize = 0;
+            this.btn_next_day_icon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_next_day_icon.Location = new System.Drawing.Point(944, 30);
+            this.btn_next_day_icon.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_next_day_icon.Name = "btn_next_day_icon";
+            this.btn_next_day_icon.Size = new System.Drawing.Size(47, 57);
+            this.btn_next_day_icon.TabIndex = 4;
+            this.btn_next_day_icon.UseVisualStyleBackColor = false;
+            // 
+            // btn_next_day
+            // 
+            this.btn_next_day.BackColor = System.Drawing.Color.Transparent;
+            this.btn_next_day.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Button_Frame2;
+            this.btn_next_day.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_next_day.FlatAppearance.BorderSize = 0;
+            this.btn_next_day.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_next_day.Font = new System.Drawing.Font("Berlin Sans FB", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_next_day.ForeColor = System.Drawing.Color.White;
+            this.btn_next_day.Location = new System.Drawing.Point(928, 20);
+            this.btn_next_day.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_next_day.Name = "btn_next_day";
+            this.btn_next_day.Padding = new System.Windows.Forms.Padding(1, 1, 8, 1);
+            this.btn_next_day.Size = new System.Drawing.Size(240, 82);
+            this.btn_next_day.TabIndex = 3;
+            this.btn_next_day.Text = "Next Day";
+            this.btn_next_day.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_next_day.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.btn_next_day.UseVisualStyleBackColor = false;
+            // 
+            // btn_market
+            // 
+            this.btn_market.BackColor = System.Drawing.Color.Transparent;
+            this.btn_market.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Market;
+            this.btn_market.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_market.FlatAppearance.BorderSize = 0;
+            this.btn_market.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_market.Location = new System.Drawing.Point(890, 541);
+            this.btn_market.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_market.Name = "btn_market";
+            this.btn_market.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btn_market.Size = new System.Drawing.Size(252, 127);
+            this.btn_market.TabIndex = 2;
+            this.btn_market.UseVisualStyleBackColor = false;
+            this.btn_market.Click += new System.EventHandler(this.btn_market_Click);
+            // 
+            // btn_storage
+            // 
+            this.btn_storage.BackColor = System.Drawing.Color.Transparent;
+            this.btn_storage.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Storage_Building__2_;
+            this.btn_storage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_storage.FlatAppearance.BorderSize = 0;
+            this.btn_storage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_storage.Location = new System.Drawing.Point(578, 82);
+            this.btn_storage.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_storage.Name = "btn_storage";
+            this.btn_storage.Size = new System.Drawing.Size(287, 407);
+            this.btn_storage.TabIndex = 1;
+            this.btn_storage.UseVisualStyleBackColor = false;
+            this.btn_storage.Click += new System.EventHandler(this.btn_storage_Click);
+            // 
+            // background_texture
+            // 
+            this.background_texture.BackColor = System.Drawing.Color.Transparent;
+            this.background_texture.BackgroundImage = global::FieldsOfFortune.Properties.Resources.Background_Grass;
+            this.background_texture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.background_texture.Location = new System.Drawing.Point(0, -2);
+            this.background_texture.Margin = new System.Windows.Forms.Padding(2);
+            this.background_texture.Name = "background_texture";
+            this.background_texture.Size = new System.Drawing.Size(1200, 731);
+            this.background_texture.TabIndex = 0;
+            this.background_texture.TabStop = false;
+            this.background_texture.UseWaitCursor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1584, 861);
+            this.Controls.Add(this.red_circle);
             this.Controls.Add(this.FieldGroup_63);
             this.Controls.Add(this.FieldGroup_62);
             this.Controls.Add(this.FieldGroup_61);
@@ -1199,6 +1217,7 @@
         public System.Windows.Forms.TextBox txt_money;
         public System.Windows.Forms.TextBox txt_day;
         public System.Windows.Forms.Button btn_offers_empty_icon;
+        public System.Windows.Forms.Button red_circle;
     }
 }
 

@@ -206,7 +206,9 @@ namespace FieldsOfFortune
 
             marketCheck = true;
 
+            /*
             #region Garlicky Example
+            
 
             Debug.WriteLine(marketList.Count);
             Debug.WriteLine(productList.Count);
@@ -279,6 +281,7 @@ namespace FieldsOfFortune
             marketList[0].txt_prod_price.Text = productList[0].marketCost.ToString("F2");
 
             #endregion
+            */
 
             //loop through 20 products - each individual product line 4 sections update (info, sell, trends, buy)
             for (int i = 0; i < productList.Count; i++)

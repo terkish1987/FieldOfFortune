@@ -100,6 +100,7 @@
             this.txt_enter_price.Name = "txt_enter_price";
             this.txt_enter_price.Size = new System.Drawing.Size(54, 55);
             this.txt_enter_price.TabIndex = 35;
+            this.txt_enter_price.TextChanged += new System.EventHandler(this.txt_enter_price_TextChanged);
             // 
             // lbl_supply
             // 

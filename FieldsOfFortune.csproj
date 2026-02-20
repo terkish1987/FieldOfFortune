@@ -52,6 +52,12 @@
     <Compile Include="BuyForm.Designer.cs">
       <DependentUpon>BuyForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CustomerOffer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomerOffer.Designer.cs">
+      <DependentUpon>CustomerOffer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Field.cs" />
     <Compile Include="FieldGroup.cs">
       <SubType>UserControl</SubType>
@@ -77,6 +83,12 @@
     </Compile>
     <Compile Include="MarketRow.Designer.cs">
       <DependentUpon>MarketRow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OffersDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OffersDisplay.Designer.cs">
+      <DependentUpon>OffersDisplay.cs</DependentUpon>
     </Compile>
     <Compile Include="Plant.cs" />
     <Compile Include="PlantDisplay.cs">
@@ -110,6 +122,9 @@
     <EmbeddedResource Include="BuyForm.resx">
       <DependentUpon>BuyForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CustomerOffer.resx">
+      <DependentUpon>CustomerOffer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FieldGroup.resx">
       <DependentUpon>FieldGroup.cs</DependentUpon>
     </EmbeddedResource>
@@ -121,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MarketRow.resx">
       <DependentUpon>MarketRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OffersDisplay.resx">
+      <DependentUpon>OffersDisplay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PlantDisplay.resx">
       <DependentUpon>PlantDisplay.cs</DependentUpon>
@@ -360,6 +378,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Arrow Up Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red_circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form_frame-green_line1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

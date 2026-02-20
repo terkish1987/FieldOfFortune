@@ -373,6 +373,16 @@ namespace FieldsOfFortune.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap form_frame_green_line1 {
+            get {
+                object obj = ResourceManager.GetObject("form_frame-green_line1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Form_Frame_GreenLine {
             get {
                 object obj = ResourceManager.GetObject("Form_Frame_GreenLine", resourceCulture);
@@ -646,6 +656,16 @@ namespace FieldsOfFortune.Properties {
         internal static System.Drawing.Bitmap Picture2 {
             get {
                 object obj = ResourceManager.GetObject("Picture2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap red_circle {
+            get {
+                object obj = ResourceManager.GetObject("red_circle", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

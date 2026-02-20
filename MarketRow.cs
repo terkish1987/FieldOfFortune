@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace FieldsOfFortune
 {
@@ -22,6 +23,12 @@ namespace FieldsOfFortune
         public MarketRow()
         {
             InitializeComponent();
+        }
+
+        private void txt_enter_price_TextChanged(object sender, EventArgs e)
+        {
+            Debug.WriteLine("relevant comment " + ID.ToString());
+            MarketDisplay.Instance.UpdateSellingPrice(ID);
         }
     }
 }

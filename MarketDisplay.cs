@@ -86,5 +86,10 @@ namespace FieldsOfFortune
         {
             GameController.Instance.CloseMarketDisplay();
         }
+
+        public void UpdateSellingPrice(int ID)
+        {
+            //ADD LOGIC
+        }
     }
 }

@@ -30,3 +30,5 @@ C:\Users\User\GitHub\FieldOfFortune\obj\Debug\FieldsOfFortune.PlantDisplay.resou
 C:\Users\User\GitHub\FieldOfFortune\obj\Debug\FieldsOfFortune.PlantProduct.resources
 C:\Users\User\GitHub\FieldOfFortune\obj\Debug\FieldsOfFortune.MarketDisplay.resources
 C:\Users\User\GitHub\FieldOfFortune\obj\Debug\FieldsOfFortune.MarketRow.resources
+C:\Users\User\GitHub\FieldOfFortune\obj\Debug\FieldsOfFortune.CustomerOffer.resources
+C:\Users\User\GitHub\FieldOfFortune\obj\Debug\FieldsOfFortune.OffersDisplay.resources
